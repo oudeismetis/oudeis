@@ -1,0 +1,30 @@
+<div class='container'>
+<div id="title-info" class="title-info">
+  <div id='site-title' class='site-title'>
+    {{ if ( ne .Site.Title "" ) }}
+    <a href="{{ .Site.BaseURL | relLangURL }}"> {{ .Site.Title }} </a>
+    {{ end }}
+  </div>
+</div>
+
+  <div id="menu-primary-tracks" class="menu-primary-tracks"></div>
+
+  <div id="menu-secondary" class="menu-container menu-secondary" role="navigation">
+    <button id="toggle-secondary-navigation" class="toggle-secondary-navigation"><i class="fa fa-plus"></i></button>
+
+    <div class="menu">
+
+      <ul id="menu-secondary-items" class="menu-secondary-items">
+        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+        </li>
+        {{ end }}
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>

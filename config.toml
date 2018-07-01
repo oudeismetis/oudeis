@@ -1,0 +1,59 @@
+baseurl = "https://oudeis.co/"
+title = "oudeis"
+theme = "hugo-nederburg-theme"
+languageCode = "en-us"
+# Enable Google Analytics by entering your tracking code
+# googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5
+
+[params]
+  description = "Describe your website" # meta description
+  author = "Edward Romano"
+  authorLink = "https://oudeis.co/"
+  bio = [
+    "foo"
+  ]
+  copyright = [
+    "&copy; 2018 Edward Romano",
+    "Design customized from the Hugo [Nederburg](https://github.com/appernetic/hugo-nederburg-theme) theme.",
+  ]
+
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = ""
+
+  # Nav links in the side bar
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Get in touch"
+  url = "contact/"
+  weight = 3
+
+  [params.social]
+  email         = "oudeis.metis@gmail.com"
+  twitter       = "https://twitter.com/oudeismetis"
+  linkedin      = "https://www.linkedin.com/in/edromano/"
+  stackoverflow = "https://stackoverflow.com/users/9173553/oudeis"
+  github        = "https://github.com/oudeismetis"
+  rss           = true
