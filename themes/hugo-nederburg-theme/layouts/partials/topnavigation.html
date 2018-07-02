@@ -15,12 +15,12 @@
     <div class="menu">
 
       <ul id="menu-secondary-items" class="menu-secondary-items">
-        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        {{ $page := . }}
+        {{ range .Site.Menus.main }}
         <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
-          <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+          <a href="{{ .URL | absURL }}">{{ .Name }}</a>
         </li>
         {{ end }}
-
       </ul>
 
     </div>

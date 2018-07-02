@@ -19,20 +19,8 @@ paginate = 5
     "Design customized from the Hugo [Nederburg](https://github.com/appernetic/hugo-nederburg-theme) theme.",
   ]
 
-
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = ""
+  # Gravitar author image
+  email = "edward.romano@gmail.com"
 
   # Nav links in the side bar
   [[menu.main]]
@@ -41,14 +29,19 @@ paginate = 5
   weight = 1
 
   [[menu.main]]
-  name = "About"
-  url = "about/"
+  name = "Blog"
+  url = "blog/"
   weight = 2
 
   [[menu.main]]
-  name = "Get in touch"
-  url = "contact/"
+  name = "Projects"
+  url = "projects/"
   weight = 3
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 4
 
   [params.social]
   email         = "oudeis.metis@gmail.com"
