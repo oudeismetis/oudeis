@@ -1,0 +1,14 @@
+<h1 class="screen-reader-text">Recent Work</h1>
+
+<div id="loop-container" class="loop-container">
+  {{ range $index, $element := (where .Site.Pages "Type" "blog") }}
+	{{ if eq $index 0 }}
+  {{ partial "card.html" (dict "Params" .Params "Site" .Site "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "index" $index "element" $element ) }}
+  {{ end }}
+  {{ end }}
+  {{ range $index, $element := (where .Site.Pages "Type" "projects") }}
+	{{ if eq $index 0 }}
+  {{ partial "card.html" (dict "Params" .Params "Site" .Site "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" "True" "element" $element ) }}
+  {{ end }}
+  {{ end }}
+</div>

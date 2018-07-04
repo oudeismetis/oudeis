@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* 800px */
+@media all and (min-width: 50em) {
+  .title-info {
+    margin-top: 0em;
+  }
+}
+
+.site-footer {
+  padding-top: 0;
+}
+
+.toggle-secondary-navigation {
+  margin-top: .3em;
+
+.menu-secondary-items {
+  margin-top: .2em;
+}

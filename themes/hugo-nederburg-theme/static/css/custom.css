@@ -618,7 +618,7 @@ a img {
   }
 
   .title-info {
-    margin-top: 0em;
+    margin-top: -0.75em;
   }
 
   .site-title img {
@@ -1466,7 +1466,6 @@ li.pingback:first-child {
 .site-footer {
   color: #8c8c8c;
   text-align: center;
-  padding-top: 0;
   overflow: hidden;
   clear: both;
 }
@@ -1930,7 +1929,7 @@ li.pingback:first-child {
   font-size: 1.313em;
   /* 21px / 16px */
   line-height: 1.714;
-  margin-top: .3em;
+  margin: 0;
   padding: 0;
   outline: none;
   -webkit-transition: -webkit-transform 0.3s ease;
@@ -1948,7 +1947,7 @@ li.pingback:first-child {
   width: 100%;
   left: 0;
   padding: 1.5em;
-  margin-top: .2em;
+  margin: 0;
   background: #110800;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
