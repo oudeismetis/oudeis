@@ -1,0 +1,12 @@
++++
+title = "Fun with MySQL"
+date = 2012-11-08T06:20:00Z
+updated = 2012-11-08T06:20:04Z
+draft = true
+blogimport = true 
+[author]
+	name = "Edward Romano"
+	uri = "https://plus.google.com/118036157148722337915"
++++
+
+Stuff before<br /><br />Mysql dump help:<br />http://forums.mysql.com/read.php?28,21329,69972#msg-69972<br /><br />http://www.java-forums.org/advanced-java/18028-mysqldump-java.html<br /><br />http://www.dreamincode.net/forums/topic/237159-mysqldump-not-working-with-runtimegetruntimeexec/<br /><br />http://obscuredclarity.blogspot.com/2011/07/executing-mysqldump-from-java-and.html<br /><br />Unique ids from hash help:<br />http://rpbouman.blogspot.com/2010/05/mysql-maximum-value-of-integer.html<br /><br />http://www.electrictoolbox.com/article/linux-unix-bsd/howto-check-md5-file/<br /><br />http://stackoverflow.com/questions/1240718/generating-strong-unique-user-ids-w-php-mysql<br /><br />http://greenash.net.au/thoughts/2010/03/generating-unique-integer-ids-from-strings-in-mysql/<br /><br />more stuff before <br /><br /><pre class="brush:bash" name="code" width="100%">public static boolean mysqldump(String table, String where, File dest) throws Exception <br />{<br /> boolean result = true;<br /> String db = props.getProperties().getProperty("schemaName");<br /> String host = props.getProperties().getProperty("host");<br /> String user = props.getProperties().getProperty("username");<br /> String pass = props.getProperties().getProperty("password");<br /><br /> dump_query = "mysqldump -t -v --insert-ignore -h " + host + " -u "+ user + " -p"+ pass + " "+ db + " "+ table + " " + where + " &gt; "+ dest.getAbsolutePath() + "/" + table + ".sql";<br /><br /> Process process = Runtime.getRuntime().exec(new String[] { "/bin/bash", "-c", dum_query});<br /><br /> if (process.waitFor() != 0)<br /> {<br />  mysql_dump_status &amp;= false;<br />  throw(new Exception("mysqldump() returned failure for table: " + table));<br /> }<br />}<br /><br /><br />mysql_dump_status = true;<br />mysql_dump("table1", "--where=id="+row_id, sql_dest);<br />mysql_dump("table2", "", sql_dest);<br />mysql_dump("table3", complex_where+"\"", sql_dest);<br /><br />if (mysql_dump_status == true) {<br /> //We success without error, tar up the dump files, copy them somewhere, or do whatever we want on success<br />}<br />else {<br /> //One of the dumps failed. Do something with that knowledge. <br />}<br /></pre>and some stuff after 

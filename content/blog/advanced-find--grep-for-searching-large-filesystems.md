@@ -1,0 +1,12 @@
++++
+title = "Advanced find & grep for searching large filesystems"
+date = 2012-08-31T21:42:00Z
+updated = 2012-08-31T21:42:11Z
+tags = ["advanced", "grep", "linux", "bash", "find", "shell"]
+blogimport = true 
+[author]
+	name = "Edward Romano"
+	uri = "https://plus.google.com/118036157148722337915"
++++
+
+grep is a <a href="http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/">great little command</a> and probably the first "advanced" command most people learn when first exposed to shell scripting. <br /><br />But what do you do when you need to regularly search a LARGE file system that takes a normal grep command minutes (hours?) to traverse? <br /><br />Even worse, what if that file system has user data mixed in with developer code as well as svn repositories, archive folders and all sorts of other nonsense that returns loads of false positives for even the most targeted, code specific grep you can do? <br /><br />I of course found myself in the later scenario and was forced to take my "grep game" to a new level. (grep game.....that gives me an idea....) <br /><br /><b><u>The magic command:</u></b><br /><br /><pre class="brush:shell" name="code" width="100%">find . -not -path "*/.svn*" | xargs grep -ls "String to find"<br /></pre><br />It starts by using the find command to create a list of all files we want to grep. You can add as many "-not -path" components as you need. (don't pipe " | " them, just add them)<br />The REGEX that follows each you'll want to specially craft to eliminate directories and file types that you want to skip. This is extremely important if you are getting too many results back or if the search takes too long to run.<br /><br />After that, we just pipe the find results into a basic grep command.<br /><br /><b><u>Important Notes About GREP Options Here:</u></b><br /><pre class="brush:shell" name="code" width="100%">grep -l "string" #will only show filenames<br /><br />grep -s "string" # will ignore error messages<br /><br />grep -q "string" # won't return results <br /># useful with echo $? <br /># if you just want to know something exists in a folder<br /><br />grep -r "string" # is not only not necessary here, <br /># it is actually NOT good to use at all. <br /># It'll ignore your -not -path options and grep those folders <br /># anyway, negating any value we get from the find command.</pre>And that's it!<br />Obviously this can be very powerful inside a shell script after spending some time to well craft the results of the find command.
