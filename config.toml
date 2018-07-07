@@ -8,7 +8,7 @@ preserveTaxonomyNames = true
 paginate = 5
 
 [params]
-  description = "Describe your website" # meta description
+  description = "Projects and blog posts by Edward Romano" # meta description
   author = "Edward Romano"
   authorLink = "https://oudeis.co/"
   bio = [
