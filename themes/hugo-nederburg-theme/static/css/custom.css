@@ -83,6 +83,7 @@ body {
 
 .main {
   background: #38312f;
+  padding-bottom: 1.5em;
   margin: 0 auto;
 }
 
@@ -932,7 +933,7 @@ a img {
   }
 
   .pagination {
-    padding: 0.75em 1.5em 1em;
+    padding: 0.75em 1.5em 3em;
   }
 
   .excerpt-title, .entry-title {
@@ -1466,6 +1467,7 @@ li.pingback:first-child {
 .site-footer {
   color: #8c8c8c;
   text-align: center;
+  padding-top: 3em;
   overflow: hidden;
   clear: both;
 }
@@ -1575,7 +1577,7 @@ li.pingback:first-child {
   }
 
   .design-credit {
-    margin-top: 10px;
+    margin-top: 72px;
   }
 }
 /* 700px */
@@ -1917,7 +1919,7 @@ li.pingback:first-child {
 }
 /* secondary menu styles */
 .menu-secondary {
-  float: right;
+  float: left;
   z-index: 9;
 }
 
