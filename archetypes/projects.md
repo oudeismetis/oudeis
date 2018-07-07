@@ -5,7 +5,7 @@ draft = true
 weight = 1
 +++
 
-summary
+"Start with why"
 <!--more-->
 
 #### Status
@@ -20,7 +20,7 @@ summary
 #### Abandoned Ideas
 (currently none)
 
-#### Inspirations
+#### Inspiration
 (currently none)
 
 #### Research
