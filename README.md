@@ -36,8 +36,6 @@ Nederburg is a fast and secure theme.
 
 This Hugo theme was ported from [competethemes](https://www.competethemes.com/tracks/).
 
-![screenshot](https://raw.githubusercontent.com/appernetic/hugo-nederburg-theme/master/images/screenshot.png)
-
 ### Gravatar
 
 To have an image in your author bio shown after posts, go to [Gravatar](https://gravatar.com/) and configure it and then add the email address that you have associated with it in the email section in settings:
@@ -67,5 +65,7 @@ Leave the `googleAnalytics` key empty to disable it.
 The code for this site is released under the MIT License. (See the license file)
 
 Opinions, tutorials, and descriptions about my projects on this website are liberally sharable under [Creative Commons](https://creativecommons.org/licenses/by-sa/4.0/).  
+
 For the project ideas themselves and any code related to those projects, see the license file provided where the project is hosted.  
+
 If you desire to use my work in a way not governed by the above, please contact me directly so we can work something out.  
