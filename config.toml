@@ -1,16 +1,16 @@
-baseurl = "https://oudeis.co/"
+baseurl = "https://www.oudeis.co/"
 title = "oudeis"
 theme = "hugo-nederburg-theme"
 languageCode = "en-us"
 # Enable Google Analytics by entering your tracking code
-# googleAnalytics = ""
+googleAnalytics = "UA-122222377-1"
 preserveTaxonomyNames = true
 paginate = 5
 
 [params]
   description = "Projects and blog posts by Edward Romano" # meta description
   author = "Edward Romano"
-  authorLink = "https://oudeis.co/"
+  authorLink = "https://www.oudeis.co/"
   bio = [
     "I dabble in, and occasionally obsess over, technology and problems that bug me"
   ]
