@@ -1,7 +1,7 @@
 +++
 title = "House"
 slug = "house"
-date = 2018-07-08T14:37:01-04:00
+date = "2018-07-08"
 active = true
 weight = 1
 draft = true

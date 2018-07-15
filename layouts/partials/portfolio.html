@@ -1,22 +1,97 @@
 <h1 class="screen-reader-text">Recent Work</h1>
 
 <div id="loop-container" class="loop-container">
+  {{/* Setup a scratch pad so we can keep track of how to flip the images */}}
+  {{ $scratch := newScratch }}
+  {{ $scratch.Set "flip" "True" }}
+
+  {{/* Most recent active projects */}}
+  {{/* ================== */}}
   {{ range first 3 (where (where .Site.Pages "Type" "projects" ) ".Params.active" "eq" true) }}
   {{ $posts := (where .Site.Pages "Params.projectslug" .Slug) }}
   {{ $postCount := len $posts }}
 
+  {{/* Projects may or may not have a blog post update. Display different if we do */}}
   {{ if ge $postCount 1 }}
   {{ $link := .Permalink }}
   {{ range first 1 $posts }}
-  {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Projectlink" $link "Title" .Title "Summary" .Summary "Flip" "True" ) }}
-  {{ end }}
+
+  {{/* If there is an image, flip relative to the last image we saw */}}
+	{{ if isset .Params "image" }}
+	{{ if eq ($scratch.Get "flip") "True" }}
+  {{ $scratch.Set "flip" "False" }}
   {{ else }}
-  {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" "True" ) }}
+  {{ $scratch.Set "flip" "True" }}
   {{ end }}
   {{ end }}
 
-  {{ range first 1 (where .Site.Taxonomies.categories.thoughts.Pages "Type" "blog") }}
-  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary ) }}
+  {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Projectlink" $link "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
   {{ end }}
+  {{ else }}
+
+  {{/* If there is an image, flip relative to the last image we saw */}}
+	{{ if isset .Params "image" }}
+	{{ if eq ($scratch.Get "flip") "True" }}
+  {{ $scratch.Set "flip" "False" }}
+  {{ else }}
+  {{ $scratch.Set "flip" "True" }}
+  {{ end }}
+  {{ end }}
+
+  {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
+  {{ end }}
+  {{ end }}
+  {{/* ================== */}}
+
+
+  {{/* Most recent post for "thoughts" category */}}
+  {{/* ================== */}}
+  {{ range first 1 (where .Site.Taxonomies.categories.thoughts.Pages "Type" "blog") }}
+  {{/* If there is an image, flip relative to the last image we saw */}}
+	{{ if isset .Params "image" }}
+	{{ if eq ($scratch.Get "flip") "True" }}
+  {{ $scratch.Set "flip" "False" }}
+  {{ else }}
+  {{ $scratch.Set "flip" "True" }}
+  {{ end }}
+  {{ end }}
+
+  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
+  {{ end }}
+  {{/* ================== */}}
+
+
+  {{/* Most recent post for "reading" category */}}
+  {{/* ================== */}}
+  {{ range first 1 (where .Site.Taxonomies.categories.reading.Pages "Type" "blog") }}
+  {{/* If there is an image, flip relative to the last image we saw */}}
+	{{ if isset .Params "image" }}
+	{{ if eq ($scratch.Get "flip") "True" }}
+  {{ $scratch.Set "flip" "False" }}
+  {{ else }}
+  {{ $scratch.Set "flip" "True" }}
+  {{ end }}
+  {{ end }}
+
+  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
+  {{ end }}
+  {{/* ================== */}}
+
+
+  {{/* Most recent post for "playing" category */}}
+  {{/* ================== */}}
+  {{ range first 1 (where .Site.Taxonomies.categories.playing.Pages "Type" "blog") }}
+  {{/* If there is an image, flip relative to the last image we saw */}}
+	{{ if isset .Params "image" }}
+	{{ if eq ($scratch.Get "flip") "True" }}
+  {{ $scratch.Set "flip" "False" }}
+  {{ else }}
+  {{ $scratch.Set "flip" "True" }}
+  {{ end }}
+  {{ end }}
+
+  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
+  {{ end }}
+  {{/* ================== */}}
 
 </div>

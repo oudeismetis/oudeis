@@ -1,6 +1,6 @@
 +++
 title = "New Website"
-date = 2018-07-06T23:17:00Z
+date = "2018-07-06"
 updated = 2018-07-06T23:17:00Z
 categories = [ "thoughts" ]
 +++

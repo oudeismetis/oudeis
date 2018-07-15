@@ -2,7 +2,6 @@
 title = "Dynamic Video updates coming"
 projectslug = 'dynamic-video'
 date = "2018-07-14"
-showonlyimage = false
 categories = [ "projects" ]
 weight = 1
 +++
