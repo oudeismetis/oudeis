@@ -1,14 +1,22 @@
 <h1 class="screen-reader-text">Recent Work</h1>
 
 <div id="loop-container" class="loop-container">
-  {{ range $index, $element := (where .Site.Pages "Type" "blog") }}
-	{{ if eq $index 0 }}
-  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "index" $index "element" $element ) }}
+  {{ range first 3 (where (where .Site.Pages "Type" "projects" ) ".Params.active" "eq" true) }}
+  {{ $posts := (where .Site.Pages "Params.projectslug" .Slug) }}
+  {{ $postCount := len $posts }}
+
+  {{ if ge $postCount 1 }}
+  {{ $link := .Permalink }}
+  {{ range first 1 $posts }}
+  {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Projectlink" $link "Title" .Title "Summary" .Summary "Flip" "True" ) }}
+  {{ end }}
+  {{ else }}
+  {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" "True" ) }}
   {{ end }}
   {{ end }}
-  {{ range $index, $element := (where .Site.Pages "Type" "projects") }}
-	{{ if eq $index 0 }}
-  {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" "True" "element" $element ) }}
+
+  {{ range first 1 (where .Site.Taxonomies.categories.thoughts.Pages "Type" "blog") }}
+  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary ) }}
   {{ end }}
-  {{ end }}
+
 </div>

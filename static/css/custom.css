@@ -41,6 +41,40 @@
   }
 }
 
+.project-status {
+    margin: 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    font-size: 13px;
+}
+.project-active {
+    border-radius: 50px;
+    background: #4BC94D;
+    padding: .2em;
+}
+
+.project-inactive {
+    border-radius: 50px;
+    background: #FF8A3C;
+    padding: .2em;
+}
+
+.top-content {
+    margin: 3em 0 0 0;
+}
+.entry-content {
+    margin: 0;
+}
+
+.featured-image {
+    padding-bottom: 38%;
+}
+
+.divider {
+    padding: .5em;
+}
+
 .site-footer {
   padding-top: 0;
 }

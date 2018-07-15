@@ -5,7 +5,7 @@ languageCode = "en-us"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-122222377-1"
 preserveTaxonomyNames = true
-paginate = 5
+paginate = 10
 
 [params]
   description = "Projects and blog posts by Edward Romano" # meta description
@@ -38,6 +38,10 @@ paginate = 5
   name = "About"
   url = "about/"
   weight = 4
+
+  [taxonomies]
+  category = "categories"
+  tag = "tags"
 
   [params.social]
   email         = "oudeis.metis@gmail.com"

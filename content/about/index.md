@@ -24,7 +24,7 @@ By night **I experiment with electronics, robotics, and front end web developmen
   * Track in Global IT
 
 #### Licenses of my work
-Opinions, tutorials, and descriptions about my projects on this website are liberally sharable under Creative Commons.  
+Opinions, tutorials, and descriptions about my projects on this website are liberally shareable under Creative Commons.  
 For the project ideas themselves and any code related to those projects, see the license file provided where the project is hosted.  
 If you desire to use my work in a way not governed by the above, please contact me directly so we can work something out.  
 

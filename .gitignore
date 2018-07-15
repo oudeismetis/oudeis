@@ -1,0 +1,51 @@
+*.lock
+*.out
+*.csv
+*.dat
+*.gz
+*.rdb
+*.sql
+
+
+#### OS Config ####
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+
+#### Editor Config ####
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+*.swp
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+
+#### Languages ####
+
+# Hugo
+hugo*
+/public/
+/resources/_gen

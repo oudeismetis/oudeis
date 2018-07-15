@@ -1,16 +1,20 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
+slug = "{{ .Name }}"
 date = "{{ now.Format "2006-01-02" }}"
+tags = ['foo', 'bar', 'biz']
+image = "img/projects/aprs_tracker.jpeg"
 showonlyimage = false
+active = true
 weight = 1
 draft = true
 +++
 
-"Start with why"
+(Optional) Short project status goes here
 <!--more-->
 
-#### Status
-(currently none)
+#### What is it
+"Start with why"
 
 #### Current Capability
 (currently none)

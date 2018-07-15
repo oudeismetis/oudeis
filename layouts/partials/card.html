@@ -20,11 +20,13 @@
 							<a href="/{{ .Type }}">{{ .Type }}</a>
 						</span>
 
+            {{ if eq .Type "blog" }}
 						{{ range .Params.categories }}
 						<span> / </span>
 						<span class="category">
 							<a href="/categories{{ . | relURL }}">{{ . }}</a>
 						</span>
+						{{ end }}
 						{{ end }}
 					</div>
 					<div class='excerpt-header'>
@@ -36,7 +38,19 @@
 						<article>
 							{{ .Summary }}
 
-							<div class="more-link-wrapper"><a class="more-link" href="{{ .Permalink }}">Read the post<span class="screen-reader-text">This is a Standard Post</span></a></div>
+              {{ if eq .Type "projects" }}
+							<div class="more-link-wrapper">
+                  {{ if .Projectlink }}
+                  <a class="more-link" href="{{ .Permalink }}">Read the post<span class="screen-reader-text">This is a Project Update Post</span></a>
+                  <span class="divider"> | </span>
+                  <a class="more-link" href="{{ .Projectlink }}">View Project<span class="screen-reader-text">This is a Project Page</span></a>
+                  {{ else }}
+                  <a class="more-link" href="{{ .Permalink }}">View Project<span class="screen-reader-text">This is a Project Page</span></a>
+                  {{ end }}
+              </div>
+              {{ else }}
+							<div class="more-link-wrapper"><a class="more-link" href="{{ .Permalink }}">Read the post<span class="screen-reader-text">This is a Blog Post</span></a></div>
+              {{ end }}
 						</article>
 					</div>
 				</div>

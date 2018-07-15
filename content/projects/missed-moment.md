@@ -1,18 +1,20 @@
 +++
 title = "missed-moment"
-date = 2018-07-06T20:55:52-04:00
+slug = "missed-moment"
+date = "2016-09-15"
 tags = ['python', 'Raspberry Pi', 'IoT']
+active = false
 weight = 1
 +++
 
-A "privacy by design" IoT camera designed to capture all the precious moments in life. For when you 
-wish you had just caught something on camera.
-<!--more-->
-
-#### Status
-Not currently in active development.  
 The main functionality works. I've had a raspberry Pi running it almost constantly for 2 years now 
 with rarely any issues.  
+
+<!--more-->
+
+#### What is it
+A "privacy by design" IoT camera designed to capture all the precious moments in life. For when you 
+wish you had just caught something on camera.  
 Detailed setup instructions can be found on [github](https://github.com/oudeismetis/missed-moment)
 
 #### Current Capability

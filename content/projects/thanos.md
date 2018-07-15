@@ -1,18 +1,21 @@
 +++
 title = "T.H.A.N.O.S"
-date = 2018-07-06T22:14:10-04:00
+slug = "thanos"
+date = "2018-06-01"
 tags = ['arduino', 'space', 'HAM']
 image = "img/projects/aprs_tracker.jpeg"
+active = true
 weight = 1
 +++
 
-"Terrestrial High Altitude Nautical On-Sight", my first attempt at a near-space high altitude 
-balloon
+Transmitter works. Payload is mostly built. Will have an accurate weight soon, which will determine 
+the balloon and parachute we purchase. Hoping for an August launch window.
 <!--more-->
 
-#### Status
-Actively being developed. I created a "space program" at work and have several talented engineers 
-working on this as a side project.
+#### What is it
+"Terrestrial High Altitude Nautical On-Sight", my first attempt at a near-space high altitude 
+balloon.  
+I created a "space program" at work and have several talented engineers working on this as a side project.
 
 #### Current Capability
 Radio transmitter sending GPS location via the APRS network.  
