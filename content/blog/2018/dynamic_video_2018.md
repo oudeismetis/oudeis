@@ -3,6 +3,7 @@ title = "Dynamic Video updates coming"
 projectslug = 'dynamic-video'
 date = "2018-07-14"
 categories = [ "projects" ]
+image = "img/projects/trump_myst_book.gif"
 weight = 1
 +++
 

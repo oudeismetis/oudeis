@@ -75,6 +75,11 @@
     padding: .5em;
 }
 
+.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .site-footer {
   padding-top: 0;
 }
