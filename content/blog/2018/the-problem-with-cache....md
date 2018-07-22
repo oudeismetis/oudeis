@@ -1,8 +1,7 @@
 +++
 title = "The problem with cache..."
-date = "2018-07-19"
+date = "2018-07-21"
 categories = [ "thoughts" ]
-weight = 1
 draft = true
 blogimport = true 
 +++

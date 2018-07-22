@@ -1,8 +1,7 @@
 +++
 title = "Geothermal"
-date = "2018-07-08"
+date = "2018-07-21"
 showonlyimage = false
-weight = 1
 draft = true
 +++
 

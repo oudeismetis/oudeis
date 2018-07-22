@@ -3,7 +3,6 @@ title = "GDPR: How to \"think\" about your user’s data"
 date = "2018-07-20"
 categories = [ "thoughts" ]
 showonlyimage = false
-weight = 1
 +++
 
 

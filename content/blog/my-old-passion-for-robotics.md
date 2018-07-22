@@ -1,6 +1,6 @@
 +++
 title = "My old passion for Robotics"
-date = 2018-07-01T21:48:00Z
+date = "2018-07-21"
 updated = 2018-07-01T21:48:52Z
 draft = true
 blogimport = true 

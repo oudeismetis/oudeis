@@ -4,7 +4,6 @@ date = "2018-07-12"
 image = "/img/2018/search-inside-yourself.jpg"
 showonlyimage = false
 categories = [ "reading" ]
-weight = 1
 +++
 
 Experimenting with mindfulness approaches to life's experiences.

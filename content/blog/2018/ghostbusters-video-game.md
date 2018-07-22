@@ -4,7 +4,6 @@ date = "2018-07-07"
 image = "/img/2018/ghostbusters-video-game.jpg"
 showonlyimage = false
 categories = [ "playing" ]
-weight = 1
 +++
 
 It is the only project the entire original cast returned to work on.

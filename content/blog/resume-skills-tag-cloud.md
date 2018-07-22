@@ -1,6 +1,6 @@
 +++
 title = "Resume skills tag cloud"
-date = 2014-05-25T11:53:00Z
+date = "2018-07-21"
 updated = 2014-05-25T11:53:39Z
 draft = true
 blogimport = true 

@@ -1,6 +1,6 @@
 +++
 title = "Start-up lessons learned"
-date = 2014-07-22T11:49:00Z
+date = "2018-07-21"
 updated = 2014-07-22T11:49:56Z
 draft = true
 blogimport = true 
