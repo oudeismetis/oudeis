@@ -6,9 +6,10 @@ weight = 1
 draft = true
 +++
 
-Next up: THANOS progress with pictures
+Next up: Dynamic text with Blender/Python blog post
 <!--more-->
 
+Thoughts on Caching (August "thought" post)
 Dishwasher slackbot with pictures
 Github PR Generator post mortem
     - Architecture docs of the django models
