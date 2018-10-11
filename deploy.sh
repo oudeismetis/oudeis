@@ -4,7 +4,7 @@ BUCKET_NAME=oudeis.co-cdn
 DISTRIBUTION_ID=E2D53ONXDBNEGF
 PROFILE=oudeis-website
 
-# R ebuild public/ (verbose)
+# Rebuild public/ (verbose)
 hugo -v 
 
 # Sync Files

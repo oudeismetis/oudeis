@@ -6,26 +6,51 @@ weight = 1
 draft = true
 +++
 
-Next up: Dynamic text with Blender/Python blog post
+Next up: Ethernet Blog post
 <!--more-->
 
-Thoughts on Caching (August "thought" post)
-Dishwasher slackbot with pictures
-Github PR Generator post mortem
-    - Architecture docs of the django models
-    - Architecture of the API calls. Postman screen shot.
-    - Heroku Scheduler config
-My old 3D models
-    - Robot arm
-    - Engagement ring
-    - House from highschool (still have?)
-    - Floor plan class I taught.
-    - Metal pipe
-    - Wonderbread. Blender to Unity
-Unity hello world game I made of Judy (with DL link)
-Wonderbread
-Ambassador
-HASS touchscreen with setup pictures
+### Ethernet Blog post
+* Have data for performance
+* Can I test ping/net speed from steam link?
+* Starting topic: "Fixing my PC's bottleneck"
+* Provide details on my current PC setup
+* THEN talk about my network weakness
+
+### French Cleat
+* Mount the cleats (needs for anchors and maybe 1 more board)
+* Make decorative hangings
+* Mount finger holds
+* Make peg board and/or climbing panel w/ holds
+* pictures and blog
+
+### Dynamic Video (On hold? No longer have access?)
+* Next was: Dynamic text with Blender/Python blog post
+* Then: Bring it back with Marc
+
+### Github PR Generator post mortem (Don't have access anymore?)
+* Architecture docs of the django models
+* Architecture of the API calls. Postman screen shot.
+* Heroku Scheduler config
+
+### My old 3D models
+* Robot arm
+* Engagement ring
+* House from highschool (still have?)
+* Floor plan class I taught.
+* Metal pipe
+* Wonderbread. Blender to Unity
+
+### WoodWorking
+* French cleat climbing wall project
+* puzzle box?
+
+### Unity hello world game I made of Judy (with DL link)
+
+### Wonderbread (Don't have access anymore?)
+
+### Ambassador
+
+### HASS touchscreen with setup pictures
 
 <a href="http://jsfiddle.net/" style="background-color: white; color: #1155cc; font-family: arial, sans-serif; font-size: 13px;" target="_blank">http://jsfiddle.net/</a>
 <span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;">&nbsp;&nbsp;&nbsp;</span>
