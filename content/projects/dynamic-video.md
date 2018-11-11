@@ -4,7 +4,7 @@ slug = "dynamic-video"
 date = "2017-06-23"
 tags = ['python', 'blender', 'heroku', '3d']
 image = "img/projects/trump_myst_book.gif"
-active = true
+active = false 
 weight = 1
 +++
 

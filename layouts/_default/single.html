@@ -59,7 +59,7 @@
                     </span>
                     {{ end }}
                 </div>
-            {{ range first 1 (where .Site.Pages "Params.projectslug" .Slug) }}
+            {{ range first 3 (where .Site.Pages "Params.projectslug" .Slug) }}
             {{ .Date.Format "02 Jan 2006" }} / {{ .Title }}
             <div class="more-link-wrapper"><a class="more-link" href="{{ .Permalink }}">Read the update<span class="screen-reader-text">This is a Standard Post</span></a></div>
             {{ end }}

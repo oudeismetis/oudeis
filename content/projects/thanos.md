@@ -4,12 +4,11 @@ slug = "thanos"
 date = "2018-06-01"
 tags = ['arduino', 'space', 'HAM']
 image = "img/projects/aprs_tracker.jpeg"
-active = true
+active = true 
 weight = 1
 +++
 
-Transmitter works. Payload is mostly built. Will have an accurate weight soon, which will determine 
-the balloon and parachute we purchase. Hoping for an August launch window.
+Transmitter works. Payload is built. Parachute and balloon purchased. Weather is bad and won't be good until 2019.
 <!--more-->
 
 #### What is it
@@ -31,14 +30,15 @@ But there are a number of issues you quickly discover.
 
 Most of these challenges have been met. Myself and another teammate got our HAM radio licenses.  
 We've built and tested a working APRS transmitter.  
-We've done a lot a research on launch locations, times, etc.
-Just need to finish building the payload, weigh it, and begin final calculations.
+We've done a lot of research on launch locations, times, etc.
+Just need to wait for better high altitude winds for a better weekend launch (Summer 2019?)
+The do a final "dress rehearsal" before launch date.
 
 #### Abandoned Ideas
 None so far. We've kept the project rather MVP.  
-Goal is the track and recover the payload. Camera and altimiter on board to capture images from 
+Goal is the track and recover the payload. Camera and altimeter on board to capture images from 
 burst altitude (and to know how hight that was).
-Thats it for this first launch.
+That's it for this first launch.
 
 #### Inspiration
 Always wanted to "send something to space"
