@@ -6,15 +6,12 @@ weight = 1
 draft = true
 +++
 
-Next up: Ethernet Blog post
+Next up: Reading or Video Game Blog Post
 <!--more-->
 
-### Ethernet Blog post
-* Have data for performance
-* Can I test ping/net speed from steam link?
-* Starting topic: "Fixing my PC's bottleneck"
-* Provide details on my current PC setup
-* THEN talk about my network weakness
+### Spark
+* Resolving data type changes
+* Updating a df column from a dictionary
 
 ### French Cleat
 * Mount the cleats (needs for anchors and maybe 1 more board)
