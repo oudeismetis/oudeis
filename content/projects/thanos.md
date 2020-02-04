@@ -8,18 +8,17 @@ active = true
 weight = 1
 +++
 
-Transmitter works. Payload is built. Parachute and balloon purchased. Weather is bad and won't be good until 2019.
+Transmitter works. Payload is built. Parachute and balloon purchased. Ready for final testing with a possible mid-2020 launch.
 <!--more-->
 
 #### What is it
 "Terrestrial High Altitude Nautical On-Sight", my first attempt at a near-space high altitude 
 balloon.  
-I created a "space program" at work and have several talented engineers working on this as a side project.
 
 #### Current Capability
 Radio transmitter sending GPS location via the APRS network.  
 GoPro camera for recording video to burst altitude.  
-Internal schelving insert structure for easy packaging of launch day payload.
+Internal shelving insert structure for easy packaging of launch day payload.
 
 #### Challenges
 In principal, this is an easy project. Attach a cheap cooler to a weather balloon and let it go.  
@@ -31,8 +30,8 @@ But there are a number of issues you quickly discover.
 Most of these challenges have been met. Myself and another teammate got our HAM radio licenses.  
 We've built and tested a working APRS transmitter.  
 We've done a lot of research on launch locations, times, etc.
-Just need to wait for better high altitude winds for a better weekend launch (Summer 2019?)
-The do a final "dress rehearsal" before launch date.
+Just need to wait for better high altitude winds for a better weekend launch (Summer 2020?)
+Then do a final "dress rehearsal" before launch date.
 
 #### Abandoned Ideas
 None so far. We've kept the project rather MVP.  
