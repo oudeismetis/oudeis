@@ -1,6 +1,7 @@
 +++
 title = "Spark jdbc Throttling"
 date = "2020-04-16"
+categories = [ "thoughts" ]
 showonlyimage = false
 +++
 
@@ -61,8 +62,33 @@ df = spark.read.jdbc(url=pg_url, table='foo',
                      predicates=predicates, properties=config)
 {{< / highlight >}}
 
-This is a simple toy example that results in Spark only opening X connects to the DB. Not the most robust solution, but it worked.
+This is a simple toy example that results in Spark only opening 4 connects to the DB. Not the most robust solution, but it worked.
 
+I ended up taking this a step further and dynamically building the list of predicates base on the number of rows in the DB.
+
+{{< highlight python "linenos=table" >}}
+def get_chunks(lower_bound, upper_bound, num_chunks):
+    count = upper_bound - lower_bound
+    # This will often result in an extra remainder chunk
+    chunk_size = count//num_chunks
+    chunks = []
+    for i in range(lower_bound, lower_bound + count, chunk_size):
+        chunks.append((i, i + chunk_size))
+    return chunks
+
+
+def get_predicates(lower_bound, upper_bound):
+    predicates = []
+    # lower_bound isn't the smalled value in this case
+    predicates.append(f'{index_col} < {lower_bound}')
+
+    for a, b in get_chunks(lower_bound, upper_bound, 20):
+        preeicates.append(f'{index_col} >= a AND {index_col} < b')
+
+    # just in case new rows showed up, lets be complete
+    predicates.append(f'{index_col} >= {chunks[-1][-1]}')
+    return predicates
+{{< / highlight >}}
 
 ### Links:
  * https://issues.apache.org/jira/browse/SPARK-8008
