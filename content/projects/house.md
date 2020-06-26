@@ -2,12 +2,12 @@
 title = "House"
 slug = "house"
 date = "2018-07-08"
+tags = ['geothermal', 'IoT', '3d']
 active = true
 weight = 1
-draft = true
 +++
 
-My current home project is to replace a 30 year old oil furnace with Geothermal.
+My current home project is 3D modeling a new addition
 <!--more-->
 
 #### What is it
@@ -15,7 +15,13 @@ Owning a house is one big long project. The project page is dedicated to musings
 topics like solar panels, geothermal heat pumps, and robot lawn movers.
 
 #### Geothermal Heat Pump
-Link to blog post
+<div class="center">
+  <img src="/img/2020/geothermal/geothermal.gif"></br>
+  Geothermal installed August of 2018
+</div>
+
+#### Home Addition
+
 
 #### Challenges
 (currently none)
