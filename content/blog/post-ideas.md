@@ -6,19 +6,26 @@ weight = 1
 draft = true
 +++
 
-Next up: Reading or Video Game Blog Post
+Next up: ?
 <!--more-->
+
+
+### House Improvements
+* Server Rack
+* 3D model house 
 
 ### Spark
 * Resolving data type changes
 * Updating a df column from a dictionary
 
-### French Cleat
-* Mount the cleats (needs for anchors and maybe 1 more board)
-* Make decorative hangings
-* Mount finger holds
-* Make peg board and/or climbing panel w/ holds
-* pictures and blog
+### Video Games
+* Kerbal Space Program lessons learned
+* Gaming with a 4 year old
+    * Mario - trial and error
+    * Unravel 2 - patience and teamwork
+    * Captain Toad - perspective
+    * Thomas was Alone - Empathy
+    * Paper Mario - patience and planning
 
 ### Dynamic Video (On hold? No longer have access?)
 * Next was: Dynamic text with Blender/Python blog post
