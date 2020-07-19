@@ -43,4 +43,13 @@ That's it for this first launch.
 Always wanted to "send something to space"
 
 #### Research
-TODO - LOTS of links to share
+
+* Backup to APRS
+    * "android deep sleep mode app"
+
+* Other projects
+    * spaceblimp hacdc google group operating out of Rockville maker lab
+        * [group link](https://groups.google.com/a/hacdc.org/forum/#!forum/spaceblimp)
+
+* Launch Prep
+    * [tying knots](https://www.animatedknots.com/san-diego-jam-knot)

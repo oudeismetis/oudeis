@@ -13,12 +13,13 @@ My current home project is 3D modeling a new addition
 
 #### The High Level
 I have been on a slow journey to transform my house into the kind of home where I can engineer all sorts of things.
-    * Woodworking
-    * Metalworking
-    * Electronics
-    * Home Automation
-    * IoT
-    * Robotics
+
+* Woodworking
+* Metalworking
+* Electronics
+* Home Automation
+* IoT
+* Robotics
 
 I started by replacing an old oil furnace with [Geothermal]({{< ref "geothermal-install.md" >}}).
 
@@ -35,14 +36,18 @@ Just started...update soon.
 
 #### Networking & Home Lab
 
-<div class="center">
-  <img src="/img/2018/cat6_box_wiring.jpeg"></br>
-  Fishing Cat6 through my walls
-</div>
+![Wiring Cat6](/img/2018/cat6_box_wiring.jpeg)
+
+Fishing Cat6 through my walls
 
 #### Geothermal Heat Pump
 
-<div class="center">
-  <img src="/img/2020/geothermal/geothermal.gif"></br>
-  Geothermal installed August of 2018
-</div>
+![Geothermal Workers](/img/2020/geothermal/geothermal.gif)
+
+Geothermal installed August of 2018
+
+#### Inspiration
+Resources I use for ideas are below
+
+##### Home Automation
+* [bruh automation](https://www.bruhautomation.io/)
