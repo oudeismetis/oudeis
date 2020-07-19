@@ -1,6 +1,6 @@
 +++
 title = "The human brain desires waterfall solutions"
-date = "2020-07-08"
+date = "2020-07-19"
 categories = [ "thoughts" ]
 +++
 

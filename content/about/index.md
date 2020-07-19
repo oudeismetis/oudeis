@@ -4,21 +4,22 @@ title = "About me"
 +++
 
 By morning **I rock climb and bike.**  
-By day **I work mostly in Python as a Senior Software Engineer with a Digital Agency.**  
-By evening **I attempt to teach my 2 year old daughter the command line.**  
+By day **I work mostly in Python/Spark as a Senior Software Engineer.**  
+By evening **I attempt to teach my 4 year old daughter the command line.**  
 By night **I experiment with electronics, robotics, and front end web development.**
 
 ![This is me][1]
 
 
 #### Work
+* 2018 - [CapitalOne](https://www.capitalone.com/) - Big Data Credit Card Fraud
 * 2014 - [ISL](https://isl.co) - Backend web development and crazy R&D
 * 2013 - [Socure](https://www.socure.com/) - NYC startup building analysis tools for online identity security
 * 2007 - [Lockheed Martin](https://lockheedmartin.com) - Web development, cyber security, data analysis, etc.
 
 #### Education
 * 2011 - [Villanova](http://www1.villanova.edu/university.html) - Masters, Computer Engineering.
-  * Focused on Cryptography and robotics
+  * Focused on Cryptography and Robotics
 * 2007 - [Penn State](https://www.psu.edu/) - BS, Information Sciences and Technology.
   * Minor in Engineering Entrepreneurship
   * Track in Global IT
