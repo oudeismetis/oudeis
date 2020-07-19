@@ -1,7 +1,8 @@
 +++
 title = "Building my first Workbench"
+projectslug = 'woodworking'
 date = "2020-06-30"
-categories = [ "thoughts" ]
+categories = [ "projects" ]
 image = "img/2020/workbench_opened_large.jpeg"
 +++
 
