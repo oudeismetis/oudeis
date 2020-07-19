@@ -1,31 +1,54 @@
 +++
 title = "Post Ideas"
 date = "2018-07-22"
-showonlyimage = false
 weight = 1
 draft = true
 +++
 
-Next up: ?
+Next up: Pics of Tesla Hitch; Publish Gaming post
 <!--more-->
 
+If you can see this, it means you can read my project updates before they are released on the website...good for you :)
+
+### Publish Schedule
+1. gaming w/ 4-year-old
+1. Tesla Hitch
+1. A Spark post
+1. House 3D model
+
+### Website TODO
+* Cache invalidation has been weird.
+    * Free to just always invalidate everything?
+    * Always invalidate just the main pages?
+    * What happens with project page updates?
+* /tags/ and /categories/ is always empty. Should be a list of posts.
 
 ### House Improvements
 * Server Rack
-* 3D model house 
+* Soldering Station
+* 3D model house
+    * link to youtube
+* Architect research/thoughts/opinions
+    * link to youtube
+* Solar and power wall research
+    * link to youtube
+* Geothermal Costs Math
 
 ### Spark
 * Resolving data type changes
 * Updating a df column from a dictionary
 
+### WoodWorking
+* French cleat climbing wall project
+* Wood rack mini-post?
+* Building a bed
+* Tools I chose and why
+* proton pack (history of build and maybe a rebuild effort)
+
 ### Video Games
 * Kerbal Space Program lessons learned
-* Gaming with a 4 year old
-    * Mario - trial and error
-    * Unravel 2 - patience and teamwork
-    * Captain Toad - perspective
-    * Thomas was Alone - Empathy
-    * Paper Mario - patience and planning
+* Gaming with a 5-year-old
+    * Baba is you?
 
 ### Dynamic Video (On hold? No longer have access?)
 * Next was: Dynamic text with Blender/Python blog post
@@ -44,10 +67,6 @@ Next up: ?
 * Metal pipe
 * Wonderbread. Blender to Unity
 
-### WoodWorking
-* French cleat climbing wall project
-* puzzle box?
-
 ### Unity hello world game I made of Judy (with DL link)
 
 ### Wonderbread (Don't have access anymore?)
@@ -55,6 +74,8 @@ Next up: ?
 ### Ambassador
 
 ### HASS touchscreen with setup pictures
+Seems like you aren't supposed to run HASS like this
+
 
 <a href="http://jsfiddle.net/" style="background-color: white; color: #1155cc; font-family: arial, sans-serif; font-size: 13px;" target="_blank">http://jsfiddle.net/</a>
 <span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;">&nbsp;&nbsp;&nbsp;</span>
@@ -67,3 +88,10 @@ http://blog.neugan.com/2012/06/host-javascript-js-css-files-on-google.html
 http://qbnz.com/highlighter/demo.php
 <br />
 <br />
+Really good gif editor
+https://www11.lunapic.com/editor/
+</br>
+Compressing images
+https://tinypng.com/
+</br>
+</br>
