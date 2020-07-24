@@ -6,7 +6,7 @@ image = "img/2020/tesla/disassembled_tesla_large.jpeg"
 draft = true
 +++
 
-The most expensive things I've ever taken apart...
+The most expensive thing I've ever taken apart...
 <!--more-->
 
 ...in addition to being the most expensive car I've ever owned by far. (I hail from Camry/Civic people)

@@ -5,15 +5,15 @@ weight = 1
 draft = true
 +++
 
-Next up: Pics of Tesla Hitch; Publish Gaming post
+Next up: Quick write up on "Thing Explainer" 
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. gaming w/ 4-year-old
-1. Tesla Hitch
-1. A Spark post
+1. Tesla Hitch (100%)
+1. Reading post
+1. A Spark post (50%)
 1. House 3D model
 
 ### Website TODO
@@ -45,7 +45,21 @@ If you can see this, it means you can read my project updates before they are re
 * Tools I chose and why
 * proton pack (history of build and maybe a rebuild effort)
 
-### Video Games
+### Dev/Software 
+* VIM tricks
+* Thoughts on development
+    * bugs are a lack of imagination. Imperfect information. Nature of agile.
+* Keyboard upgrade w/ Vim caps
+
+### Reading Category
+* Thing Explainer
+* Cooking for Geeks
+* Dilbert Principle
+* Monster Museum Book
+* Puzzle book from kickstarter
+* Outdoor Survival
+
+### Playing Category 
 * Kerbal Space Program lessons learned
 * Gaming with a 5-year-old
     * Baba is you?
@@ -85,8 +99,6 @@ Seems like you aren't supposed to run HASS like this
 <br />
 http://blog.neugan.com/2012/06/host-javascript-js-css-files-on-google.html
 <br />
-http://qbnz.com/highlighter/demo.php
-<br />
 <br />
 Really good gif editor
 https://www11.lunapic.com/editor/
@@ -94,4 +106,6 @@ https://www11.lunapic.com/editor/
 Compressing images
 https://tinypng.com/
 </br>
+Video to gif
+https://ezgif.com/video-to-gif
 </br>

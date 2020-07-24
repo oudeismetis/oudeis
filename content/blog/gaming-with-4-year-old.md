@@ -1,10 +1,8 @@
 +++
 title = "Teach w/ games - age 4"
-date = "2020-07-09"
+date = "2020-07-24"
 categories = [ "playing" ]
 image = "/img/2020/games/title.jpeg"
-showonlyimage = false
-draft = true
 +++
 
 Video games have taught my daughter a lot of important lessons
@@ -17,9 +15,10 @@ This has become even more apparent to me as I have slowly introduced my 4-year-o
 # Super Mario Bros.
 Simple controls, slow enemies, catchy music. The original Super Mario turned out to be the perfect laboratory for my kid to learn trial and error. After watching us play she dove right in...and immediately died. She then tried again and again, each time experimenting with new ideas that might help her get a little further.
 
-![Super Mario Bros 1-1](/img/2020/games/mario_1_1.jpeg)</br>
-"I keep dying...I need to try harder" </br>
-- My daughter
+![Super Mario Bros 1-1](/img/2020/games/mario_1_1.jpeg)
+
+    "I keep dying...I need to try harder"
+        - My daughter
 
 At times it was frustrating for her and she didn't want to play again. But inevitably days later she would ask to play and continued to test her metal. It took several weeks, but eventually she made it to 1-4 and beat the first bowser on the bridge. She was so proud of herself...but did not want to play that level ever again. (We showed her how to find the warp tunnels, which added several more weeks to her play time)
 
@@ -28,9 +27,10 @@ Who new a bunch of colored squares and rectangles had deep personalities?
 
 Between the narrator telling his story and us discussing how to solve each puzzle, she quickly memorized the names of all the "characters". They never speak or do anything but move around, yet weeks later after not playing for a while she knew all of their names (whereas I had forgotten).
 
-![Thomas Was Alone](/img/2020/games/thomas_was_alone.jpeg)</br>
-"No dad, that's John. The small one is Chris."</br>
-- My daughter
+![Thomas Was Alone](/img/2020/games/thomas_was_alone.jpeg)
+
+    "No dad, that's John. The small one is Chris."
+        - My daughter
 
 It might not seem like much, but I could see her learning how to empathize with characters in a story. They didn't have smiling faces or look like her. They just had small comments made about them by the narrator. But that was enough for her to care about who they were and where they were going.
 
@@ -56,9 +56,10 @@ Switching back to some retro gaming on the N64, we picked up an interactive stor
 
 Like many good RPGs, Paper Mario has a deeper story and world with lots of characters on their own side quests. Between the art style and the text bubbles, this was very much story time for us as a family.
 
-![Paper Mario 64](/img/2020/games/paper_mario.png)</br>
-"Why is he made out of paper dad?!?" </br>
-- My daughter
+![Paper Mario 64](/img/2020/games/paper_mario.png)
+
+    "Why is he made out of paper dad?!?"
+        - My daughter
 
 Yes, there was fighting in the game, but very cartoony like any mario game. As a turn-based RPG, everything in combat was slowed down. With all the time in the world to think and plan, my kid would often ask me what our strategy would be for the encounter. She also learned that you often fail the first time you do something. Here, the goal of that first encounter was to experiment and figure out the enemies weakness. We would then change our items and strategy before the rematch to best position ourselves for success.
 
@@ -75,9 +76,10 @@ I've sometimes wonder if my daughter has object permanence as she regularly is "
 
 This game helped us talk about that as a family and turned finding her socks into a game.
 
-![Captain Toad's Treasure Tracker](/img/2020/games/captain_toad.jpeg)</br>
-"Where are the crayons?!?" - My daughter </br>
-"You tell me Captain Toad!" - Me (asking her to look around) </br>
+![Captain Toad's Treasure Tracker](/img/2020/games/captain_toad.jpeg)
+
+    "Where are the crayons?!?" - My daughter
+    "You tell me Captain Toad!" - Me (asking her to look around)
 
 I definitely feel like she hunts harder for things around the house now before complaining. (At least a little longer...maybe ten seconds now)
 
