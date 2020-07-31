@@ -1,15 +1,14 @@
 +++
 title = "I disassembled a Tesla"
-date = "2020-07-18"
+date = "2020-07-31"
 categories = [ "thoughts" ]
 image = "img/2020/tesla/disassembled_tesla_large.jpeg"
-draft = true
 +++
 
 The most expensive thing I've ever taken apart...
 <!--more-->
 
-...in addition to being the most expensive car I've ever owned by far. (I hail from Camry/Civic people)
+...in addition to being the most expensive car I've ever owned by far. (I hail from Camry people)
 
 When we bought the car a year ago to replace our aging Honda Civic, I asked our daughter to name the car. She chose..."Civic".
 
@@ -19,7 +18,7 @@ As such, it was about time we put a hitch on this car to expand our cargo capaci
 
 # Up on the Blocks
 
-So, you cannot actually summon a Tesla up onto blocks. It'll get about 1/3rd the way up before stopping. So I had to do that the old fashion way.
+So, you cannot actually summon a Tesla up onto blocks. It'll get about 1/3rd the way up before stopping. So I had to do that the old fashioned way.
 
 ![car wheel on block](/img/2020/tesla/up_on_blocks.jpeg)
 
@@ -67,7 +66,7 @@ Some people online say the receiver looks ugly when left on the car by itself. I
 
 # Impact to range?
 
-There will definitely be an impact. The full hitch itself is 43lbs, ~36.5lbs if you detach the receiver. Leaving the receiver in only adds a couple of pounds, but maaaay also add a small amount of drag. 
+There will definitely be an impact. The full hitch itself is 43lbs, ~36.5lbs if you detach the receiver. Leaving the receiver on only adds a couple of pounds, but maaaay also add a small amount of drag. 
 
 Honestly, I'm not worried enough about this to research further. What is really going to affect range is what you attach to the hitch itself. Adding a bike rack might [reduce range by ~30%](https://forums.tesla.com/forum/forums/hitch-installation-impact-range-updated-101513). Towing something will [obviously hurt range even more](https://insideevs.com/news/404005/video-tesla-model-3-towing-range-test/).
 

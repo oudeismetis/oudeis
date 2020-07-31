@@ -23,7 +23,7 @@ Simple controls, slow enemies, catchy music. The original Super Mario turned out
 At times it was frustrating for her and she didn't want to play again. But inevitably days later she would ask to play and continued to test her metal. It took several weeks, but eventually she made it to 1-4 and beat the first bowser on the bridge. She was so proud of herself...but did not want to play that level ever again. (We showed her how to find the warp tunnels, which added several more weeks to her play time)
 
 # Thomas was alone
-Who new a bunch of colored squares and rectangles had deep personalities?
+Who knew a bunch of colored squares and rectangles had deep personalities?
 
 Between the narrator telling his story and us discussing how to solve each puzzle, she quickly memorized the names of all the "characters". They never speak or do anything but move around, yet weeks later after not playing for a while she knew all of their names (whereas I had forgotten).
 
@@ -40,7 +40,7 @@ Often games can make you impatient and motivate you to get through as quick as p
 But in this game, you are tethered to your teammate. They can't get too far ahead or behind before you run out of yarn. Most of the puzzles require one person to stand on a specific spot and wait as the other person solves a piece of the puzzle. There is also a lot of swinging and climbing where one player has to spot the other to make sure they get through safely.
 
 ![Unravel 2](/img/2020/games/unravel_2.jpeg)</br>
-I know a lot of patience was learned in this game...by me
+I know a lot of patience was learned in this game...by me.
 
 Teamwork was the biggest thing she learned here. She couldn't just think about herself or what she was doing, but also had to think about me, and eventually "we". This really slowed the game down for us as we would both be jumping around the screen testing different things and discussing how we would get over the obstacle together.
 
@@ -72,7 +72,7 @@ A puzzle game that is more about looking around than it is about solving hard pu
 
 The game constantly forces you to change your perspective, move things around, and think about the position of things in the world.
 
-I've sometimes wonder if my daughter has object permanence as she regularly is "unable" to find a toy or other object in our house unless it is sitting right out in the open. No more than two seconds of "looking" is spent before giving up and make one of us find it.
+I've sometimes wondered if my daughter has object permanence as she regularly is "unable" to find a toy or other object in our house unless it is sitting right out in the open. No more than two seconds of "looking" is spent before giving up and make one of us find it.
 
 This game helped us talk about that as a family and turned finding her socks into a game.
 
@@ -81,7 +81,7 @@ This game helped us talk about that as a family and turned finding her socks int
     "Where are the crayons?!?" - My daughter
     "You tell me Captain Toad!" - Me (asking her to look around)
 
-I definitely feel like she hunts harder for things around the house now before complaining. (At least a little longer...maybe ten seconds now)
+I definitely feel like she hunts harder for things around the house now before complaining (At least a little longer...maybe ten seconds now).
 
 And of course the game has great characters, cut scenes, music, and fun little puzzles that are very short but satisfying to complete.
 
@@ -94,7 +94,7 @@ We might play "Overcooked" next, a game that should teach some more teamwork.
 I'm very excited for "Baba Is You", but I want to wait for her reading skills to improve a little.
 ![Baba gameplay](/img/2020/games/baba_is_you.gif)
 
-"Baba is you" is a great word play where how you order words changes the world
+"Baba is you" is a great word play game where word order changes the world and gameplay.
 
 In a few years I'll put "Assassin's Creed Odyssey" in front of her.
 

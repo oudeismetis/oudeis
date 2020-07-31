@@ -23,6 +23,18 @@ My brain has been swirling with a lot of ideas.
 * Quick release dust bin
 * Robotic blast gates?
 
+Problem:
+
+PVC pipe coming out the top of the dust deputy is too tall to make the table height match other work surfaces.
+Raising the wheels up into the cabinet would help...but that would require the table to be wider.
+Also, adding all the PVC 'Y's, couplings, and other things would also be tight, so table probably needs to be longer.
+Now considering 24X48 or 24X36.
+
+Lessons Learned:
+
+As long as your patient, a hair blow dryer works great for heating up PVC to be molded.
+
+
 ## Resources
 ILTMS Downdraft Table
 https://youtu.be/pmx9JOnyw28

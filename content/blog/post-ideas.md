@@ -5,14 +5,14 @@ weight = 1
 draft = true
 +++
 
-Next up: Quick write up on "Thing Explainer" 
+Next up: missed-moment status update
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. Tesla Hitch (100%)
-1. Reading post
+1. missed-moment active again
+1. thing explainer (100%)
 1. A Spark post (50%)
 1. House 3D model
 
