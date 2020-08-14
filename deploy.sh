@@ -11,4 +11,4 @@ hugo -v
 aws s3 sync --profile ${PROFILE} --acl "public-read" --sse "AES256" --cache-control max-age=604800 public/ s3://${BUCKET_NAME}/
 
 # Invalidate cache
-aws cloudfront create-invalidation --profile ${PROFILE} --distribution-id ${DISTRIBUTION_ID} --paths /blog/* /projects/* /about/*
+aws cloudfront create-invalidation --profile ${PROFILE} --distribution-id ${DISTRIBUTION_ID} --paths /index.html /blog/* /projects/* /about/*

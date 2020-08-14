@@ -2,6 +2,7 @@
 title = "Spark jdbc Throttling"
 date = "2020-04-16"
 categories = [ "thoughts" ]
+tags = ["spark", "python"]
 showonlyimage = false
 +++
 

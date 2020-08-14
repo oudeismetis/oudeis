@@ -5,16 +5,15 @@ weight = 1
 draft = true
 +++
 
-Next up: missed-moment status update
+Next up: another spark post (get thoughts down about throttling) 
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. missed-moment active again
-1. thing explainer (100%)
-1. A Spark post (50%)
+1. Spark df chunking post
 1. House 3D model
+1. Spark dtype post
 
 ### Website TODO
 * Cache invalidation has been weird.

@@ -4,19 +4,26 @@ slug = "missed-moment"
 date = "2016-09-15"
 tags = ['python', 'Raspberry Pi', 'IoT']
 image = "img/projects/missed-moment-v1.jpeg"
-active = false
+active = true
 weight = 1
 +++
 
-The main functionality works. I've had a raspberry Pi running it almost constantly for 2 years now 
-with rarely any issues.  
+New progress made in 2020!
 
 <!--more-->
+
+#### What's New
+
+- Code has been updated to run on the RPi4 as well as the new Raspberry Pi OS
+- Install instructions and scripts have been streamlined
+- HUGE progress has been made on audio support (Special thanks to [cherryshoe](https://github.com/cherryshoe))
 
 #### What is it
 A "privacy by design" IoT camera designed to capture all the precious moments in life. For when you 
 wish you had just caught something on camera.  
 Detailed setup instructions can be found on [github](https://github.com/oudeismetis/missed-moment)
+
+The main functionality works. I've had a raspberry Pi running it almost constantly for 2 years now with rarely any issues.
 
 #### Current Capability
 - Immediately starts recording when powered on
