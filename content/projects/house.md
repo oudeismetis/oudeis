@@ -32,7 +32,11 @@ So I could better host some of my side projects (ex: [missed-moment]({{< ref "mi
 
 #### Home Addition
 
-Just started...update soon.
+I've generated my own schematics.
+
+We are now in the process of getting "real" schematics from an architect :)
+
+![Schematics of basement](/img/2020/house_remodel/basement_orthographic.png)
 
 #### Networking & Home Lab
 

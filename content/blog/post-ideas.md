@@ -5,13 +5,12 @@ weight = 1
 draft = true
 +++
 
-Next up: 3D modeling images
+Next up: Publish Spark post
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. House 3D model (25% - needs images)
 1. Building a bed (0%)
 1. Spark throttling writes (100%)
 1. Spark df chunking post (50% - needs polish)
