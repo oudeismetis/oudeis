@@ -12,7 +12,6 @@ If you can see this, it means you can read my project updates before they are re
 
 ### Publish Schedule
 1. Building a bed (0%)
-1. Spark throttling writes (100%)
 1. Spark df chunking post (50% - needs polish)
 1. Spark dtype post (10% - needs copy)
 1. Spooky eyes and/or proton pack

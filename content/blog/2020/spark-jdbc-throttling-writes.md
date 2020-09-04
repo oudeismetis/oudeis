@@ -1,10 +1,9 @@
 +++
 title = "Spark JDBC Throttling, Part 2"
-date = "2020-08-19"
+date = "2020-09-04"
 categories = [ "thoughts" ]
 tags = ["spark", "python"]
 showonlyimage = false
-draft = true
 +++
 
 Again...Spark will hammer a relational DB you connect to if you let it.
