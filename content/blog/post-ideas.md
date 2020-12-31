@@ -5,29 +5,24 @@ weight = 1
 draft = true
 +++
 
-Next up: Publish Spark post
+Next up: Get bed finished
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. Building a bed (0%)
-1. Spark df chunking post (50% - needs polish)
+1. Finishing the bed (0%)
+1. DRY harmful (50%)
+1. missed-moment subprocess refactor
+1. Spark df chunking post (90% - needs polish)
 1. Spark dtype post (10% - needs copy)
-1. Spooky eyes and/or proton pack
 
 ### Website TODO
-* Cache invalidation has been weird.
-    * Free to just always invalidate everything?
-    * Always invalidate just the main pages?
-    * What happens with project page updates?
 * /tags/ and /categories/ is always empty. Should be a list of posts.
 
 ### House Improvements
 * Server Rack
 * Soldering Station
-* 3D model house
-    * link to youtube
 * Architect research/thoughts/opinions
     * link to youtube
 * Solar and power wall research
@@ -49,7 +44,6 @@ If you can see this, it means you can read my project updates before they are re
 * Thoughts on development
     * bugs are a lack of imagination. Imperfect information. Nature of agile.
     * "DRY considered harmful"
-* Keyboard upgrade w/ Vim caps
 
 ### Reading Category
 * Cooking for Geeks

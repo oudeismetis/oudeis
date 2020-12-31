@@ -48,7 +48,7 @@ email = "your@gravatar.email"
 
 Most styles are provided by the Nederburg theme.
 
-Overrides have mane in the `static/css/custom.css` file.
+Overrides have been made in the `static/css/custom.css` file.
 
 ### Google Analytics
 
