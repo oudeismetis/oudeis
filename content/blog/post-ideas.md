@@ -14,7 +14,7 @@ If you can see this, it means you can read my project updates before they are re
 1. Finishing the bed (0%)
 1. DRY harmful (50%)
 1. missed-moment subprocess refactor
-1. Spark df chunking post (90% - needs polish)
+1. Codex Silenda
 1. Spark dtype post (10% - needs copy)
 
 ### Website TODO
