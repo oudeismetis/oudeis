@@ -5,17 +5,18 @@ weight = 1
 draft = true
 +++
 
-Next up: Get bed finished
+Next up: Get bed finished :fire: [more](https://www.webfx.com/tools/emoji-cheat-sheet/)
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
 1. Finishing the bed (0%)
-1. DRY harmful (50%)
+1. [DRY harmful]({{< ref "dry-considered-harmful.md" >}}) (50%)
 1. missed-moment subprocess refactor
 1. Codex Silenda
-1. Spark dtype post (10% - needs copy)
+1. [Spark dtype post]({{< ref "spark-fixing-dtypes.md" >}}) (10% - needs copy)
+1. [Python Immutable Dictionary]({{< ref "immutable-python-dictionary.md" >}}) (95% - review)
 
 ### Website TODO
 * /tags/ and /categories/ is always empty. Should be a list of posts.
