@@ -3,6 +3,7 @@ title = "Spooky Halloween Eyes with Arduino"
 date = "2020-10-31"
 categories = [ "thoughts" ]
 image = "img/2020/spooky_eyes/spooky_eyes.png"
+tags = ["arduino", "halloween"]
 showonlyimage = false
 +++
 
