@@ -4,8 +4,7 @@ slug = "thanos"
 date = "2018-06-01"
 tags = ['arduino', 'space', 'HAM']
 image = "img/projects/aprs_tracker.jpeg"
-active = true 
-weight = 1
+active = false
 +++
 
 Transmitter works. Payload is built. Parachute and balloon purchased. Ready for final testing with a possible mid-2020 launch.

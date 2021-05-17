@@ -5,7 +5,7 @@ date = "2018-07-08"
 tags = ['geothermal', 'IoT', '3d']
 image = "img/2020/under_construction.jpeg"
 active = true
-weight = 1
+weight = 2
 +++
 
 My current home project is 3D modeling a new addition

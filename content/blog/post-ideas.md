@@ -19,7 +19,6 @@ If you can see this, it means you can read my project updates before they are re
 1. [Python Immutable Dictionary]({{< ref "immutable-python-dictionary.md" >}}) (95% - review)
 1. [Python JSON logging with error suggestions]({{< ref "python-exception-suggested-fix.md" >}}) (50%)
 1. [Error catching shell scripts]({{< ref "shell-script-exception-handling.md" >}}) (50%)
-1. Video game dev Unity/Godot (25%)
 1. [Spark fixing dtypes]({{< ref "spark-fixing-dtypes.md" >}}) (25%)
 
 ### Website TODO
