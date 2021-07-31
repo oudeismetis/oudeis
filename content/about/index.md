@@ -1,17 +1,18 @@
 +++
-date = "2018-07-05"
+date = "2021-07-31"
 title = "About me"
 +++
 
 By morning **I rock climb and bike.**  
-By day **I work mostly in Python/Spark as a Senior Software Engineer.**  
-By evening **I attempt to teach my 4 year old daughter the command line.**  
-By night **I experiment with electronics, robotics, and front end web development.**
+By day **I lead a team of web and application developers as a Senior Tech Lead.**  
+By evening **I attempt to teach my 6 year old daughter the command line.**  
+By night **I experiment with electronics, robotics, and game development.**
 
 ![This is me][1]
 
 
 #### Work
+* 2021 - [ThinkNimble](https://www.thinknimble.com/) - Building MVPs for startups and coaching them on engineering 
 * 2018 - [CapitalOne](https://www.capitalone.com/) - Big Data Credit Card Fraud
 * 2014 - [ISL](https://isl.co) - Backend web development and crazy R&D
 * 2013 - [Socure](https://www.socure.com/) - NYC startup building analysis tools for online identity security
