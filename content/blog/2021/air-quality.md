@@ -18,7 +18,7 @@ This was around the same time I became a parent so I started thinking about my c
 thinking about particles in the air and her being exposed to the litter got me doing a lot of research on detecting combustion 
 particles.
 
-### Understanding the problem
+## Understanding the problem
 
 There are many different sensors on the market, but many don't detect Volatile Organic Compounds (VOCs) or the microscopic 
 particles that cooking can give off (PM2.5).

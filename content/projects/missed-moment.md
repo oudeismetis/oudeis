@@ -53,6 +53,11 @@ In addition, there were so many times when something funny would happen when I w
 So I build missed-moment.
 
 #### Research
+
+OpenCV
+Use to identify your child in the scene and track their location. Imagine being on the playground and an indicator on missed-moment is always pointed to their last known location.
+Napping child detection. Did your kid actually go down for a nap? How long since their eyes closed? Or were their eyes open, talking, playing. Shenanigans detector.
+
 [Raspberry Pi Init Script](https://blog.lanyonm.org/articles/2015/01/11/raspberry-pi-init-script-python.html)
 
 [Python SSDP](https://gist.github.com/dankrause/6000248)
@@ -70,3 +75,4 @@ So I build missed-moment.
 [Ejecting USB Devices](https://raspberrypi.stackexchange.com/questions/14843/how-to-eject-usb-device-on-raspberry-pi-not-just-unmount)
 
 [Audio and Video in RPi](https://www.element14.com/community/thread/49732/l/high-quality-hd-audio-and-video-recorder-using-the-raspberry-pi?displayFullThread=true)
+

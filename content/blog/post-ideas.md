@@ -11,27 +11,57 @@ Next up: Get bed finished :fire: [more](https://www.webfx.com/tools/emoji-cheat-
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. Finishing the bed (0%)
-1. [DRY harmful]({{< ref "dry-considered-harmful.md" >}}) (50%)
-1. missed-moment subprocess refactor
-1. Codex Silenda
-1. [Spark dtype post]({{< ref "spark-fixing-dtypes.md" >}}) (10% - needs copy)
-1. [Python Immutable Dictionary]({{< ref "immutable-python-dictionary.md" >}}) (95% - review)
+1. July - Bed - ground level version installed before house move-out
+1. Aug - [Spark fixing dtype]({{< ref "spark-fixing-dtypes.md" >}}) (10% - needs copy)
+1. Sept - House - something on planning/architecting for a year
+1. Oct - reading-room - progress report
+
+
+### Content buffer
 1. [Python JSON logging with error suggestions]({{< ref "python-exception-suggested-fix.md" >}}) (50%)
-1. [Error catching shell scripts]({{< ref "shell-script-exception-handling.md" >}}) (50%)
-1. [Spark fixing dtypes]({{< ref "spark-fixing-dtypes.md" >}}) (25%)
+1. [Error catching shell scripts]({{< ref "shell-script-exception-handling.md" >}}) (50% - xonsh)
+1. [DRY harmful]({{< ref "dry-considered-harmful.md" >}}) (50%)
+1. [Startup Lessons Learned]({{< ref "start-up-lessons-learned.md" >}}) (50%)
+
 
 ### Website TODO
 * /tags/ and /categories/ is always empty. Should be a list of posts.
+* Need a favicon
+  * How to create a logo
+  * "New Zealand Koru"
+  * "Koru fern"
+  * "Koru plant"
+  * Odysseus
+  * -rf
+  * Vim
+  * N/A or None, etc
+  * A fern that looks like an 0 maybe
+  * 0 with a line in it
+  * > /dev/null
 
-### House Improvements
-* Server Rack
-* Soldering Station
+### House
+* Server Rack & Soldering Station
+* Car charging garden box
 * Architect research/thoughts/opinions
     * link to youtube
 * Solar and power wall research
     * link to youtube
 * Geothermal Costs Math
+* [House Humidity]({{< ref "house-humidity.md" >}})(25% - conduct experiments on new house)
+
+### reading-room
+* underline words that are at the center of your view
+* Text mapped to a moveable object
+* Trigger environment change from interaction with single word
+* Dynamic text downloaded from internet
+* Free/OS books api?
+* Foviated Rendering or Passthrough camera
+
+### Bed
+* non-bunk version finished and posted before moveout
+
+### missed-moment
+* subprocess refactor
 
 ### Spark
 * Resolving data type changes
@@ -53,7 +83,7 @@ If you can see this, it means you can read my project updates before they are re
 * Cooking for Geeks
 * Dilbert Principle
 * Monster Museum Book
-* Puzzle book from kickstarter
+* Codex Silenda
 * Outdoor Survival
 
 ### Playing Category 
@@ -69,6 +99,10 @@ If you can see this, it means you can read my project updates before they are re
 * Architecture docs of the django models
 * Architecture of the API calls. Postman screen shot.
 * Heroku Scheduler config
+* Locked Github Account
+
+### Polymorphic models w/ variants
+* django-shop work I did
 
 ### My old 3D models
 * Robot arm
@@ -77,8 +111,6 @@ If you can see this, it means you can read my project updates before they are re
 * Floor plan class I taught.
 * Metal pipe
 * Wonderbread. Blender to Unity
-
-### Unity hello world game I made of Judy (with DL link)
 
 ### Wonderbread (Don't have access anymore?)
 
