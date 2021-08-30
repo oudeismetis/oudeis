@@ -5,16 +5,15 @@ weight = 1
 draft = true
 +++
 
-Next up: Get bed finished :fire: [more](https://www.webfx.com/tools/emoji-cheat-sheet/)
+Next up: Bring house thoughts together :fire: [more](https://www.webfx.com/tools/emoji-cheat-sheet/)
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. July - Bed - ground level version installed before house move-out
-1. Aug - [Spark fixing dtype]({{< ref "spark-fixing-dtypes.md" >}}) (10% - needs copy)
 1. Sept - House - something on planning/architecting for a year
 1. Oct - reading-room - progress report
+1. Nov - ??
 
 
 ### Content buffer
@@ -57,9 +56,6 @@ If you can see this, it means you can read my project updates before they are re
 * Free/OS books api?
 * Foviated Rendering or Passthrough camera
 
-### Bed
-* non-bunk version finished and posted before moveout
-
 ### missed-moment
 * subprocess refactor
 
@@ -69,7 +65,6 @@ If you can see this, it means you can read my project updates before they are re
 ### WoodWorking
 * French cleat climbing wall project
 * Wood rack mini-post?
-* Building a bed
 * Tools I chose and why
 * proton pack (history of build and maybe a rebuild effort)
 
