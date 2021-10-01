@@ -11,9 +11,9 @@ Next up: Bring house thoughts together :fire: [more](https://www.webfx.com/tools
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. Sept - House - something on planning/architecting for a year
-1. Oct - reading-room - progress report
-1. Nov - ??
+1. Oct - House - something on planning/architecting for a year
+1. Nov - reading-room - progress report
+1. Dec - ??
 
 
 ### Content buffer
@@ -21,6 +21,7 @@ If you can see this, it means you can read my project updates before they are re
 1. [Error catching shell scripts]({{< ref "shell-script-exception-handling.md" >}}) (50% - xonsh)
 1. [DRY harmful]({{< ref "dry-considered-harmful.md" >}}) (50%)
 1. [Startup Lessons Learned]({{< ref "start-up-lessons-learned.md" >}}) (50%)
+1. [Agile Rocket Ship]({{< ref "agile-rocket-ship.md" >}}) (0%)
 
 
 ### Website TODO
