@@ -5,6 +5,7 @@
 *.gz
 *.rdb
 *.sql
+*.bak
 
 
 #### OS Config ####

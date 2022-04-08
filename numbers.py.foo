@@ -1,0 +1,59 @@
+# Solution for puzzler:
+# https://fivethirtyeight.com/features/how-many-numbers-contain-the-numbers-of-their-numbers/
+
+# reasonable limits so we don't waste time in impossible situations
+limits = {
+    '0': 1,
+    '1': 7,
+    '2': 4,
+    '3': 4,
+    '4': 4,
+    '5': 3,
+    '6': 3,
+    '7': 3,
+    '8': 3,
+    '9': 3
+}
+
+
+def test_number(number):
+    """ Test a given number to see if it is an inventory of itself """
+    counts = list(number[0::2])
+    numbers = list(number[1::2])
+    for count, num in zip(counts, numbers):
+        if count not in numbers or str(number.count(num)) != count:
+            break
+        elif number.endswith(num):
+            # Last element in list, success!!
+            print(number)
+
+
+def get_all_number_combos(limit, number):
+    """ Determine all reasonable combinations for a given group - [count, number] """
+    combos = []
+    max_limit = limits[number]
+    limit = limit if limit < max_limit else max_limit
+    for count in range(1, limit + 1):
+        combos.append(f'{count}{number}')
+    return combos
+
+
+def get_number(length, number, start):
+    """ Main recursive loop for building out a possible number and testing it """
+    for num in range(start, 10):
+        for combo in get_all_number_combos(length * 2, str(num)):
+            number += combo
+            if len(number) == (length * 2):
+                test_number(number)
+            else:
+                # Our number needs to be longer. So move one position to the right
+                # and add all reasonable combinations
+                # Pass a higher start so we don't waste time on something like 1531
+                get_number(length, number, int(number[-1]) + 1)
+            number = number[:-2]      
+
+   
+if __name__ == '__main__':
+    for length in range(1, 11):
+        # start with short numbers like 10 and work our way up to 20 long like 10111213141516171819
+        get_number(length, '', 0)
