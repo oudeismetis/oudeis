@@ -5,7 +5,7 @@ title = "About me"
 
 By morning **I rock climb and bike.**  
 By day **I lead a team of web and application developers as a Senior Tech Lead.**  
-By evening **I attempt to teach my 6 year old daughter the command line.**  
+By evening **I attempt to teach my young daughter the command line.**
 By night **I experiment with electronics, robotics, and game development.**
 
 ![This is me][1]
