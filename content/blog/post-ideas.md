@@ -11,9 +11,8 @@ Next up: Bring house thoughts together :fire: [more](https://www.webfx.com/tools
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. Oct - House - something on planning/architecting for a year
-1. Nov - reading-room - progress report
-1. Dec - ??
+1. Q3 - reading-room or SkipAlpha
+1. Q4 - ??
 
 
 ### Content buffer
@@ -25,23 +24,10 @@ If you can see this, it means you can read my project updates before they are re
 
 
 ### Website TODO
-* /tags/ and /categories/ is always empty. Should be a list of posts.
-* Need a favicon
-  * How to create a logo
-  * "New Zealand Koru"
-  * "Koru fern"
-  * "Koru plant"
-  * Odysseus
-  * -rf
-  * Vim
-  * N/A or None, etc
-  * A fern that looks like an 0 maybe
-  * 0 with a line in it
-  * > /dev/null
+* Replace Google Analytics
 
 ### House
 * Server Rack & Soldering Station
-* Car charging garden box
 * Architect research/thoughts/opinions
     * link to youtube
 * Solar and power wall research
@@ -59,9 +45,6 @@ If you can see this, it means you can read my project updates before they are re
 
 ### missed-moment
 * subprocess refactor
-
-### Spark
-* Resolving data type changes
 
 ### WoodWorking
 * French cleat climbing wall project

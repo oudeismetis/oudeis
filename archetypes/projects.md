@@ -10,7 +10,7 @@ weight = 1
 draft = true
 +++
 
-(Optional) Short project status goes here
+**(Optional) Short project status goes here**
 <!--more-->
 
 #### What is it
