@@ -31,7 +31,7 @@ For a while that was it. I was consistently using a respirator for the cat litte
 compel us to open windows and turn on a fan (usually when cooking). I also occasionally do woodworking and electronics soldering
 and so was happy to have a respirator available for that as well.
 
-## Then 2020 happened...
+## Then 2020 happened. . .
 
 In the early days of COVID I turned to my trusty respirator until we were able to purchase more convenient face masks. The west
 coast wildfires hit and DIY box fan air filters became a topic of conversation. This wasn't a 

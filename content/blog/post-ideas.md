@@ -5,14 +5,14 @@ weight = 1
 draft = true
 +++
 
-Next up: Bring house thoughts together :fire: [more](https://www.webfx.com/tools/emoji-cheat-sheet/)
+Next up: ??? :fire: [more](https://www.webfx.com/tools/emoji-cheat-sheet/)
 <!--more-->
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
 ### Publish Schedule
-1. Q3 - reading-room or SkipAlpha
-1. Q4 - ??
+1. 2023 Q4 - reading-room or SkipAlpha
+1. 2024 Q1 - ??
 
 
 ### Content buffer

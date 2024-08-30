@@ -39,7 +39,7 @@ In the Internet age, the largest companies are being hacked – be it by individ
 * 2018 - Cambridge Analytica
 
 
-The Last few years have made it painfully obvious that...
+The Last few years have made it painfully obvious that. . .
 
 * Your personal data is everywhere
 * Your government (and probably others) know a lot of it
@@ -81,7 +81,7 @@ And yet, this is exactly the business model of most applications these days.
   How many devs actually treat their data
 </div>
 
-You might be saying “well... most users know what they are getting themselves into.” But consider this example:
+You might be saying “well. . . most users know what they are getting themselves into.” But consider this example:
 
 With a lot of smartphone apps, you only get one chance to ask the user for a permission. If a user downloads the app and, upon opening for the first time, is asked for camera permission, [there is a really good chance the user will say no](https://uxplanet.org/mobile-ux-design-the-right-ways-to-ask-users-for-permissions-6cdd9ab25c27). If that permission was critical and kills the apps usefulness as a result, the user will uninstall and walk away.
                                     
@@ -92,7 +92,7 @@ On the other hand, if you let the user into the application, have them click aro
 
 ### “It’s a matter of trust”
 
-Just as banks over leveraged our money…and crashed in 2008...companies like FB have over leveraged our data and are crashing in 2018.
+Just as banks over leveraged our money…and crashed in 2008. . .companies like FB have over leveraged our data and are crashing in 2018.
 
 Like a trustworthy bank that takes care of your money, you want to be a good steward of your user’s data.
 

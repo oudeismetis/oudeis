@@ -5,12 +5,12 @@ categories = [ "thoughts" ]
 image = "img/2020/tesla/disassembled_tesla_large.jpeg"
 +++
 
-The most expensive thing I've ever taken apart...
+The most expensive thing I've ever taken apart. . .
 <!--more-->
 
-...in addition to being the most expensive car I've ever owned by far. (I hail from Camry people)
+. . .in addition to being the most expensive car I've ever owned by far. (I hail from Camry people)
 
-When we bought the car a year ago to replace our aging Honda Civic, I asked our daughter to name the car. She chose..."Civic".
+When we bought the car a year ago to replace our aging Honda Civic, I asked our daughter to name the car. She chose. . ."Civic".
 
 Despite also owning a large CRV, it has since become our vehicle of choice for every trip we do, including vacation road trips and weekend biking/hiking outings.
 

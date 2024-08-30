@@ -9,9 +9,9 @@ image = "img/2020/workbench_opened_large.jpeg"
 Bigger and bolder projects can't be built on the floor
 <!--more-->
 
-Initially I had thoughts about building a large heavy woodworking bench with a vice, dog holes ... the whole 9 yards.
+Initially I had thoughts about building a large heavy woodworking bench with a vice, dog holes . . . the whole 9 yards.
 
-Honestly though, I don't have the space for that at the moment and given my diverse interests I wanted something more versatile. I decided I wanted something big...but small enough and light enough that I could get it up the basement stairs in one piece should I need to move it out. I also wanted more storage for my growing set of tools and be able to wheel it around.
+Honestly though, I don't have the space for that at the moment and given my diverse interests I wanted something more versatile. I decided I wanted something big. . .but small enough and light enough that I could get it up the basement stairs in one piece should I need to move it out. I also wanted more storage for my growing set of tools and be able to wheel it around.
 
 <div class="center">
   <img src="/img/2020/workbench_closed.jpeg"></br>

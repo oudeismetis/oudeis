@@ -21,7 +21,7 @@ Not an amazing machine by 2018 standards, but I've been mostly working through o
 
 ## So where is the bottleneck? GPU right?
 
-Nope...it's my home network! 
+Nope. . .it's my home network! 
 
 I've been wifi connected to a router on the other side of the house. It's been fine for single player games, but I've definitely felt it for online multiplayer.
 

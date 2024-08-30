@@ -18,7 +18,7 @@ my work, I couldn't just make a minor tweak to the schema on my end and deploy a
 required consuming the last X months of data. Asking Spark to ingest all of that at once would often result in a schema mismatch
 error due to a change event. Waiting months for the data to clear out was not an option.
 
-So...I wrote what would eventually become the core feature of a pip installable python library focused on solving problems where 
+So. . .I wrote what would eventually become the core feature of a pip installable python library focused on solving problems where 
 Spark code meets other systems (S3, Postgres, API network calls, etc). 
 
 The crown jewel of that library was a Spark load function that would detect a schema change, find it, load in the data before and
@@ -27,7 +27,7 @@ after as separate dataframes, and then union them after casting the old datatype
 It worked well, but could only handle a single schema change event. I finally found some time to write a new (experimental) version 
 that can do this not just for a single schema change event, but any number of them.
 
-Enough talk...lets code.
+Enough talk. . .lets code.
 
 {{< highlight python "linenos=table" >}}
 def spark_read(files_list):
@@ -58,7 +58,7 @@ def binary_search(files_list, dtypes):
   return (files_list[:left_idx], files_list[left_idx:])
 {{< / highlight >}}
 
-The argument `dtypes` is the desired datatypes we are want. In my case, I assume the newer schema is better.
+The argument **dtypes** is the desired datatypes we are want. In my case, I assume the newer schema is better.
 This [binary search](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search) function
 efficiently finds the first file that has the newer schema. The function returns two lists, the first is all older files (which
 might have multiple schema change events btw) and the second has all files containing the desired schema.
@@ -79,7 +79,7 @@ def fix_dtypes(loaded_dfs):
   return final_df
 {{< / highlight >}}
 
-The `fix_dtypes()` function takes a list of dataframes. The last one in the list is the "good" one that has the newest schema we
+The **fix_dtypes()** function takes a list of dataframes. The last one in the list is the "good" one that has the newest schema we
 trust. We loop over the other dataframes, starting with the newest one, and attempt to cast it's schema and union the data in to
 the single final dataframe. We keep going further back in time until all the data is merged or we hit a dataframe that has such a
 diverging schema that we can't union it. If that happens, we just return all the data that we were able to fix.
@@ -98,10 +98,10 @@ def spark_load(files):
 {{< / highlight >}}
 
 Now we can bring it all together. We first try a naive load to be efficient. If it succeeds we return early. Note that 
-`fix_dtypes()` ends up doing nothing if it's given only one df.
+**fix_dtypes()** ends up doing nothing if it's given only one df.
 
 If we get an exception, we break the files intelligently into two chunks by finding a schema difference. The second chunk has
-newer files. We call `spark_load()` again for each chunk. This will keep happening recursively until we finally
+newer files. We call **spark_load()** again for each chunk. This will keep happening recursively until we finally
 get a clean load of data like the happy path above.
 
 We then do the same for all sub-chunks of files. As the recursive calls propagate back up, older data will slowly get union-ed
@@ -110,7 +110,7 @@ into newer data.
 ### Potential Bugs
 If the schema is changed but then changed back soon after, this might cause a problem during the binary search. I haven't tested
 this situation, but I'm pretty sure it would still work, but might get stuck doing a lot of binary searches until it can finally
-load a df without error. The final `fix_dtypes()` step would then have a lot of dfs to union.
+load a df without error. The final **fix_dtypes()** step would then have a lot of dfs to union.
 
 There also might be an issue of a middle chunk load failing but older loads succeeding. If this happens then we could end up with a
 final df missing a chunk of data in the middle. The solution is probably to short circuit out of all the recursion and return only
@@ -124,7 +124,7 @@ issue that might need investigation.
 As I said at the beginning, this is experimental code because I'm not working with Spark at the moment. I'm sure there are one or
 two bugs hiding here that I would like to fix.
 
-Also, it might be nice to create a lookup dictionary of "acceptable schema changes" and have that enforced during `fix_dtypes()`.
+Also, it might be nice to create a lookup dictionary of "acceptable schema changes" and have that enforced during **fix_dtypes()**.
 That way any unsafe casting (ex: you've decided that you want float -> double treated as an exception instead) can be passed as
 configuration so this tool only handles situations you trust. That way the default behavior is to fail. After an investigation is
 done and a certain schema change is considered acceptable, the logic could then be updated by adding a line of configuration.

@@ -1,7 +1,7 @@
 +++
 title = "Dry Principle Considered Harmful"
 projectslug = 'foo'
-date = "2020-09-18"
+date = "2023-09-18"
 categories = [ "thoughts" ]
 image = "img/foo.jpeg"
 showonlyimage = false
@@ -9,6 +9,7 @@ draft = true
 +++
 
 "Start with why"
+TODO - This is good at first. . .but becomes a rabbit hole, and only for 1 small piece of DRY. Probably better to re-write as 3-5 high level concepts of why it's bad.
 <!--more-->
 
 In a recent post about agile development I made a casual reference to [DRY considered harmful]({{< ref "waterfall-instinct.md" >}}), an opinion I've had for a long time and recently saw some code that reignited my thoughts on the subject.
@@ -26,7 +27,7 @@ It is a very good principle, but I find it is overused and often done too early 
 
 Sometimes the architecture decisions we make in our code can become hard to change. This can happen in a lot of ways (multi-class inheritance, unit tests exercising the implementation instead of the resulting behaviour, etc.).
 
-In the case of DRY, a change needed for one usecase might result in that abstraction needing to change...but only for that usecase and not for any of the others.
+In the case of DRY, a change needed for one usecase might result in that abstraction needing to change. . .but only for that usecase and not for any of the others.
 
 To illustrate this with an example, I recently code reviewed an abstraction that was doing something like this.
 
@@ -39,9 +40,9 @@ def log_metrics(start=None, end=None):
     logger.info(f'start={start_str} end={end_str}')
 {{< / highlight >}}
 
-Not too bad. There were a LOT of different jobs logging metrics about their results and it made sense to pull that out to a shared function. (obviously `log_metrics()` doing a lot more than the toy example above)
+Not too bad. There were a LOT of different jobs logging metrics about their results and it made sense to pull that out to a shared function. (obviously **log_metrics()** doing a lot more than the toy example above)
 
-While reviewing the code I noticed that the function was usually being called with `datetime()` objects (expected) but was sometimes given integers and strings.
+While reviewing the code I noticed that the function was usually being called with **datetime()** objects (expected) but was sometimes given integers and strings.
 
 After calling this out, the implemented fix looked like this:
 
@@ -66,13 +67,13 @@ So yes, this does solve the problems I raised, but now we have a new problem. Ye
 
 We have now increased the cognitive load on all developers who are debugging something near where this function is called.
 
-When chasing down an odd bug and you see the call to `log_metrics()` in the code, you might be pretty sure the problem isn't in there, but you'll remember that it's doing something complicated and so you'll be forced to double check that logic to be sure. The example here isn't too crazy, but abstraction like this have a habit of collecting edge cases and thus get more complicated over time.
+When chasing down an odd bug and you see the call to **log_metrics()** in the code, you might be pretty sure the problem isn't in there, but you'll remember that it's doing something complicated and so you'll be forced to double check that logic to be sure. The example here isn't too crazy, but abstractions like this have a habit of collecting edge cases and thus get more complicated over time.
 
 The more complicated it gets the more test code you'll need to write and the greater the cognitive load on everyone involved. (And test code is code so now you have cognitive load there as well)
 
 You created the abstraction to make maintaining the code easier, but now you are running the risk of undermining all of that.
 
-### My brain is out of memory...
+### My brain is out of memory. . .
 
 {{< highlight python "linenos=table" >}}
 def log_metrics(start='n/a', end='n/a'):

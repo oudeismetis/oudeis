@@ -73,6 +73,6 @@ Cypress will now have a yellow status on your PRs until Heroku successfully fini
 
 ## Lingering issues
 
-There is a [known issue](https://github.com/actions/cache/issues/319) where `actions/cache` doesn't work with `deployment_status` events.
+There is a [known issue](https://github.com/actions/cache/issues/319) where **actions/cache** doesn't work with **deployment_status** events.
 
 Also, if you push two commits quickly close together it'll run Cypress for both (wasting time and money) and there is a chance the Cypress run for the older commit would be testing a newer version of the app. (Rare and too small of an edge case to probably worry about)

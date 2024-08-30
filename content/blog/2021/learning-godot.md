@@ -78,15 +78,15 @@ To run on Android you need to do a bunch of things to get your phone setup as a 
 google the current best way to do this in the future.
 
 ### Setting up keystore for Android within Godot:
-Project > Export > Add... > Android
+Project > Export > Add. . . > Android
 
-`Release:` [path_to_my.keystore]
+**Release:** [path_to_my.keystore]
 
-`Release User:` The one you set when creating the keystore
+**Release User:** The one you set when creating the keystore
 
-`Release Password:` Same
+**Release Password:** Same
 
-`Unique Name:` Probably best to customize this like `org.my_org.$genname`
+**Unique Name:** Probably best to customize this like **org.my_org.$genname**
 
 Then just close. No need to actually export at first. USB debugging to phone should pop up an Android icon in the upper right
 corner of Godot when a phone is connect.
@@ -95,10 +95,10 @@ corner of Godot when a phone is connect.
 Debug > Deploy with Remote Debug
 
 ### Google Cardboard Button Press
-Project > Project Settings... > Input Map
+Project > Project Settings. . . > Input Map
 
 Add a new input with a unique name
 
-Click the `+` next to it and set it as `Mouse Button` > `All Devices` and `Left Button`
+Click the **+** next to it and set it as **Mouse Button** > **All Devices** and **Left Button**
 
-Now you can add a `_input()` that listens for something like `Input.is_action_just_pressed("click")`
+Now you can add a **_input()** that listens for something like **Input.is_action_just_pressed("click")**

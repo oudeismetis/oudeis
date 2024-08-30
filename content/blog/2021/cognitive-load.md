@@ -48,7 +48,7 @@ I believe that Google's findings that [psychological safety](https://rework.with
 
 ### Why can't things be simple?
 
-Innovators who have a good idea are often afraid that the idea is too simple/small and not impressive enough or that someone will steal it. This often leads to making their idea more complex by adding a bunch of visionary features and...hey...lets throw in AI or Machine Learning for good measure!
+Innovators who have a good idea are often afraid that the idea is too simple/small and not impressive enough or that someone will steal it. This often leads to making their idea more complex by adding a bunch of visionary features and. . .hey. . .lets throw in AI or Machine Learning for good measure!
 
 - Complicated requirements cause a lot of cognitive load
 - Cognitive load leads us to feel a lack of control over the complex system
@@ -58,7 +58,7 @@ Innovators who have a good idea are often afraid that the idea is too simple/sma
 - But plans add more cognitive load as all involved try to stick to the plan
 - More fear > more need to control
 - So lets add wireframes! Spend a bunch of time drawing out what things will look like
-- Gantt charts, pert charts, work breakdown structures...
+- Gantt charts, pert charts, work breakdown structures. . .
 - Lets keep going. If we hurry we can have the whole thing planned out in about 9 months
 - We can then send it over to the engineering team to build it all. I'm sure our plan will survive contact with production
 
@@ -70,7 +70,7 @@ Our efforts to deal with our fear of complexity result in more complexity.
 
 This default reaction we have to fear and cognitive load is why I think most Agile projects back slide into Waterfall.
 
-### Elevator pitches matter...for yourself and your team
+### Elevator pitches matter. . .for yourself and your team
 
 I believe there is a better way and it's centered around minimalism.
 

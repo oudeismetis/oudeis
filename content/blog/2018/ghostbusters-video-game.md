@@ -19,7 +19,7 @@ I wanted to play this when it came out in 2009 but never found the time. Now in 
 feels a little dated, with the controls on PC being a bit difficult at times. But it has definitely 
 been an enjoyable diversion.
 
-And of course nostalgia. Now...if only they would make 
+And of course nostalgia. Now. . .if only they would make 
 "[The Real Ghostbusters](https://www.youtube.com/watch?v=UcBcQCxxEvs)", but cell shaded 
 (similar to [Transformers: Devastation](https://youtu.be/rCJJYMsgSsk?t=31s)) and with a more open 
 world(s).

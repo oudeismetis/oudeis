@@ -54,7 +54,7 @@ Lint and too much moisture for small spaces
 
 I wonder if a dust deputy or a MERV 11 dust sock bag would solve the lint issue?
 Ideally this would vent to the basement. Will need to look at the plans to see if there is a way to send it down there.
-Seems too far away from the unfinished area of the basement. Hmmm....
+Seems too far away from the unfinished area of the basement. Hmmm. . ..
 
 https://www.carolinacountry.com/your-energy/should-you-vent-your-clothes-dryer-inside-your-house
 

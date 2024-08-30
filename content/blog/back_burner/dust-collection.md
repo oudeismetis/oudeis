@@ -26,7 +26,7 @@ My brain has been swirling with a lot of ideas.
 Problem:
 
 PVC pipe coming out the top of the dust deputy is too tall to make the table height match other work surfaces.
-Raising the wheels up into the cabinet would help...but that would require the table to be wider.
+Raising the wheels up into the cabinet would help. . .but that would require the table to be wider.
 Also, adding all the PVC 'Y's, couplings, and other things would also be tight, so table probably needs to be longer.
 Now considering 24X48 or 24X36.
 

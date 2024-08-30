@@ -6,7 +6,7 @@ tags = ["spark", "python"]
 showonlyimage = false
 +++
 
-Again...Spark will hammer a relational DB you connect to if you let it.
+Again. . .Spark will hammer a relational DB you connect to if you let it.
 <!--more-->
 
 Recently I wrote about solving a problem with Spark [hammering a database]({{< ref "spark-jdbc-throttling.md" >}}).
@@ -17,7 +17,7 @@ But what about a similar problem while writing to the database?
 There are three main places you can alter configuration to solve this issue (or at least mitigate and alleviate).
 
 ### Spark
-Again...spark is designed to do a lot of operations very fast, so it will hit the DB as hard as it can without thinking twice and doesn't offer any direct settings for throttling JDBC connections.
+Again. . .spark is designed to do a lot of operations very fast, so it will hit the DB as hard as it can without thinking twice and doesn't offer any direct settings for throttling JDBC connections.
 
 However, there are a couple of settings you can pass that will artificially slow things.
 
@@ -44,7 +44,7 @@ In my case I was running on AWS EMR. There are a couple of things you can option
 
 * Shrink the number of workers in your cluster (Not an option for me)
 * Shrink the size of the machines you are using (Not an option for me)
-* Switch to a machine type that is...say...optimized for memory but weaker on networking
+* Switch to a machine type that is. . .say. . .optimized for memory but weaker on networking
 
 This is something in my case I didn't get time to experiment with, but will be testing in the coming weeks. Just like changing some of the configs above, this is kind of a hack in that we aren't able to directly throttle what Spark is doing, but instead are merely constraining it's resources to force it to slow down.
 

@@ -13,14 +13,14 @@ Despite all of the bad press in the past, video games have continued to evolve i
 This has become even more apparent to me as I have slowly introduced my 4-year-old daughter to them. Below are a couple of games that I feel have had unique and interesting benefits for her.
 
 # Super Mario Bros.
-Simple controls, slow enemies, catchy music. The original Super Mario turned out to be the perfect laboratory for my kid to learn trial and error. After watching us play she dove right in...and immediately died. She then tried again and again, each time experimenting with new ideas that might help her get a little further.
+Simple controls, slow enemies, catchy music. The original Super Mario turned out to be the perfect laboratory for my kid to learn trial and error. After watching us play she dove right in. . .and immediately died. She then tried again and again, each time experimenting with new ideas that might help her get a little further.
 
 ![Super Mario Bros 1-1](/img/2020/games/mario_1_1.jpeg)
 
-    "I keep dying...I need to try harder"
+    "I keep dying. . .I need to try harder"
         - My daughter
 
-At times it was frustrating for her and she didn't want to play again. But inevitably days later she would ask to play and continued to test her metal. It took several weeks, but eventually she made it to 1-4 and beat the first bowser on the bridge. She was so proud of herself...but did not want to play that level ever again. (We showed her how to find the warp tunnels, which added several more weeks to her play time)
+At times it was frustrating for her and she didn't want to play again. But inevitably days later she would ask to play and continued to test her metal. It took several weeks, but eventually she made it to 1-4 and beat the first bowser on the bridge. She was so proud of herself. . .but did not want to play that level ever again. (We showed her how to find the warp tunnels, which added several more weeks to her play time)
 
 # Thomas was alone
 Who knew a bunch of colored squares and rectangles had deep personalities?
@@ -40,7 +40,7 @@ Often games can make you impatient and motivate you to get through as quick as p
 But in this game, you are tethered to your teammate. They can't get too far ahead or behind before you run out of yarn. Most of the puzzles require one person to stand on a specific spot and wait as the other person solves a piece of the puzzle. There is also a lot of swinging and climbing where one player has to spot the other to make sure they get through safely.
 
 ![Unravel 2](/img/2020/games/unravel_2.jpeg)</br>
-I know a lot of patience was learned in this game...by me.
+I know a lot of patience was learned in this game. . .by me.
 
 Teamwork was the biggest thing she learned here. She couldn't just think about herself or what she was doing, but also had to think about me, and eventually "we". This really slowed the game down for us as we would both be jumping around the screen testing different things and discussing how we would get over the obstacle together.
 
@@ -81,7 +81,7 @@ This game helped us talk about that as a family and turned finding her socks int
     "Where are the crayons?!?" - My daughter
     "You tell me Captain Toad!" - Me (asking her to look around)
 
-I definitely feel like she hunts harder for things around the house now before complaining (At least a little longer...maybe ten seconds now).
+I definitely feel like she hunts harder for things around the house now before complaining (At least a little longer. . .maybe ten seconds now).
 
 And of course the game has great characters, cut scenes, music, and fun little puzzles that are very short but satisfying to complete.
 

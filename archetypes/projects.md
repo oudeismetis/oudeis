@@ -12,6 +12,7 @@ draft = true
 
 **(Optional) Short project status goes here**
 <!--more-->
+---
 
 #### What is it
 "Start with why"

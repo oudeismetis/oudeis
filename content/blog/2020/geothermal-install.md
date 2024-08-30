@@ -32,7 +32,7 @@ determine your cooling load. These two things are determined separately and are 
 good at estimating how large of a system you need.
 
 In some cases I'm sure oil heating is the cheapest and best solution. Given the current rates for 
-gas however (pushed down a lot by fracking...so keep that in mind), it's a strong contender. I 
+gas however (pushed down a lot by fracking. . .so keep that in mind), it's a strong contender. I 
 think gas is MUCH cheaper at the moment, at least for my location.
 
 ### What about a Heat Pump

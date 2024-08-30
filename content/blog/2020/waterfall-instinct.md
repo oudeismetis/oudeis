@@ -22,9 +22,9 @@ From a planning perspective, the broken down waterfall steps are easier to discu
 
 Agile requires the harder mental approach as you have to take the future idea of what you want, and throw it away to form a new idea that is not at all what you want, but that helps you get something much quicker that you can test with real users.
 
-And after you succeed at building an MVP that users are able to give feedback on...you then seek buy-in from other stakeholders that now you want to go in a new direction, change things substantially, and require the redoing of some of your work. You are effectively asking permission from others (and management) to waste time and money.
+And after you succeed at building an MVP that users are able to give feedback on. . .you then seek buy-in from other stakeholders that now you want to go in a new direction, change things substantially, and require the redoing of some of your work. You are effectively asking permission from others (and management) to waste time and money.
 
-# "Don't...waste...water..."
+# "Don't. . .waste. . .water. . ."
 
 Waste is such a dirty word. We HATE to waste time and money.
 
@@ -41,7 +41,7 @@ Of course all of this assumes that we have perfect foresight and know exactly wh
 
 # Embrace Mistakes
 
-For me, the agile mindset starts with accepting the fact that we will make bad decisions all of the time... and that is OK.
+For me, the agile mindset starts with accepting the fact that we will make bad decisions all of the time. . . and that is OK.
 
 So knowing that what you are building today is guaranteed to be "wrong" (or at least have several minor flaws), the best thing you can do is to fail often and, more importantly, early and quickly. The sooner you find the mistakes in what you've done the sooner you can correct your course.
 
@@ -49,7 +49,7 @@ In many engineering fields, this results in trying to build some sort of MVP or 
 
 The ~~shortest~~ quickest path between two points is to only travel a short distance.
 
-Be as minimalist with your scope as you can possibly be so as to build the most bare bones and barely working version you can put in the hands of someone who you know will complain about it. Even when you think you've cut away all the excess, try to find another bell or whistle you THINK you need...and cut that too.
+Be as minimalist with your scope as you can possibly be so as to build the most bare bones and barely working version you can put in the hands of someone who you know will complain about it. Even when you think you've cut away all the excess, try to find another bell or whistle you THINK you need. . .and cut that too.
 
 This is something I've learned time and again working on side projects. I'm always tempted to add more useful, interesting, or exciting features to the list of things I'm trying to do. But even the tiniest of features often results in a huge increase in the amount of effort. It's a recipe for shelves of [unfinished projects](/projects/thanos).
 

@@ -18,7 +18,7 @@ Sanding turned out to be a more [exhausting]({{< ref "air-quality" >}}) problem 
 
 ![Star Wars sand meme](https://media.giphy.com/media/2vn7P7XMjgeIM/giphy.gif)
 
-It's loud, takes a long time, numbs your hands,...irritating and it gets everywhere.
+It's loud, takes a long time, numbs your hands,. . .irritating and it gets everywhere.
 
 But I slowly powered through and was able to sand away all of the minor flaws and tool marks.
 
@@ -70,4 +70,4 @@ the version you see pictured here.
 After taking a break from the project, I'll work on building safely rails and a third stability side rail so that the bed can be
 switched between it's current setup and the bunk bed variant.
 
-Not sure when that will all happen though...:smile:
+Not sure when that will all happen though. . .:smile:

@@ -27,7 +27,7 @@ I bought cheap plastic food containers and drilled holes in them so I'd have a w
 The inside is just black craft paper with strips of wax paper over the eyes to defuse the light (and tape of course).
 ![Water proof boxes](/img/2020/spooky_eyes/boxes.jpeg)
 
-Prototyping...
+Prototyping. . .
 
 ![Testing the project](/img/2020/spooky_eyes/testing.jpeg)
 

@@ -11,7 +11,7 @@ Aggressively caching server requests, a great way to sweep bugs under the rug
 
 So you made something great – be it a photograph, blog post, or even just a forum comment –  and you put it on a website. Your website, to be specific. A small but consistent flow of traffic came in, until one day someone shared a link to your website from a little place called Reddit, and the flood gates opened. 
 
-It’s the moment you’ve been waiting for – fame, virality, influencer status! ...that is, until your servers start to melt.
+It’s the moment you’ve been waiting for – fame, virality, influencer status! . . .that is, until your servers start to melt.
 
 Obviously no one wants this to happen. For those thinking ahead, questions of performance and scalability come into the conversation early. Depending on what you’ve built, there can be a number of problems to solve and optimizations to make. 
 

@@ -44,7 +44,7 @@ if ((millis() >= NextAPRS) && (LastLat != 0) && (LastLon != 0) && (_txlen == 0))
   ...
 {{< / highlight >}}
 
-In addition...
+In addition. . .
 
 We've begun building the final payload. The tracker is mounted with an on/off switch and we've 
 begun carving a window in the styrofoam cooler for the GoPro.

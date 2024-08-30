@@ -51,6 +51,6 @@ I often find that making things go fast is just the FIRST challenge you face whe
 
 Once you've mastered solutions to that problem, the next level of trouble comes from external dependencies. Calls to APIs, Databases, and other networked resources are going to give you heartburn. They often aren't designed to handle 150+ open connections from a Spark cluster and will start to overload. 
 
-So in those situations you have to first get Spark to go fast...and then figure out how to intelligently reign it in and slow it down. That isn't something [Spark wants to do]({{< ref "spark-jdbc-throttling.md" >}}). 
+So in those situations you have to first get Spark to go fast. . .and then figure out how to intelligently reign it in and slow it down. That isn't something [Spark wants to do]({{< ref "spark-jdbc-throttling.md" >}}). 
 
 I have more to share on this problem, but that'll wait for another post.
