@@ -28,7 +28,9 @@ Software developers talk about this topic a lot, but usually as it relates to ho
 It also comes up with software bugs in production and the amount of time it can take a developer to find the bug, but also determine a fix for it.
 
 ```
-"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."
+"Debugging is twice as hard as writing the code in the first place.
+Therefore, if you write the code as cleverly as possible, 
+you are, by definition, not smart enough to debug it."
 ```
 [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)
 

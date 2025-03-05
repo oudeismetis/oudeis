@@ -7,7 +7,7 @@
 
   {{/* Most recent post for "thoughts" category */}}
   {{/* ================== */}}
-  {{ range first 1 (where .Site.Taxonomies.categories.thoughts.Pages "Type" "blog") }}
+  {{ range first 3 (where .Site.Taxonomies.categories.thoughts.Pages "Type" "blog") }}
   {{/* If there is an image, flip relative to the last image we saw */}}
 	{{ if isset .Params "image" }}
 	{{ if eq ($scratch.Get "flip") "True" }}
@@ -56,40 +56,6 @@
 
   {{ partial "card.html" (dict "Params" .Params "Type" "projects" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
   {{ end }}
-  {{ end }}
-  {{/* ================== */}}
-
-
-  {{/* Most recent post for "reading" category */}}
-  {{/* ================== */}}
-  {{ range first 1 (where .Site.Taxonomies.categories.reading.Pages "Type" "blog") }}
-  {{/* If there is an image, flip relative to the last image we saw */}}
-	{{ if isset .Params "image" }}
-	{{ if eq ($scratch.Get "flip") "True" }}
-  {{ $scratch.Set "flip" "False" }}
-  {{ else }}
-  {{ $scratch.Set "flip" "True" }}
-  {{ end }}
-  {{ end }}
-
-  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
-  {{ end }}
-  {{/* ================== */}}
-
-
-  {{/* Most recent post for "playing" category */}}
-  {{/* ================== */}}
-  {{ range first 1 (where .Site.Taxonomies.categories.playing.Pages "Type" "blog") }}
-  {{/* If there is an image, flip relative to the last image we saw */}}
-	{{ if isset .Params "image" }}
-	{{ if eq ($scratch.Get "flip") "True" }}
-  {{ $scratch.Set "flip" "False" }}
-  {{ else }}
-  {{ $scratch.Set "flip" "True" }}
-  {{ end }}
-  {{ end }}
-
-  {{ partial "card.html" (dict "Params" .Params "Type" "blog" "Date" .Date "Permalink" .Permalink "Title" .Title "Summary" .Summary "Flip" ($scratch.Get "flip") ) }}
   {{ end }}
   {{/* ================== */}}
 

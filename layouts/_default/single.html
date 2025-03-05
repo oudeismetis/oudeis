@@ -17,7 +17,7 @@
 
         {{ end }}
         <div class="entry-meta">
-				  <span class="date">{{ .Date.Format "2006 Jan 02" }}</span>
+				  <span class="date">{{ .Date.Format "Jan 02 2006" }}</span>
           <span> / </span>
 
           <span class="author">
@@ -60,7 +60,7 @@
                     {{ end }}
                 </div>
             {{ range first 3 (where .Site.Pages "Params.projectslug" .Slug) }}
-            {{ .Date.Format "2006 Jan 02" }} - {{ .Title }}
+            {{ .Date.Format "Jan 02 2006" }} - {{ .Title }}
             <div class="more-link-wrapper"><a class="more-link" href="{{ .Permalink }}">Read the update<span class="screen-reader-text">This is a Standard Post</span></a></div>
             {{ end }}
             </article>
