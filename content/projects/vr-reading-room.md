@@ -1,7 +1,7 @@
 +++
 title = "VR Reading Room"
 slug = "vr-reading-room"
-date = "2021-05-11"
+date = "2025-03-05"
 tags = ['godot', 'vr']
 image = "img/2021/reading-room/godot_vr_cube.gif"
 showonlyimage = false
@@ -9,28 +9,43 @@ active = true
 weight = 1
 +++
 
-Initial development started May 2020
+A better way to read to maintain flow state or stay lost in the story
 <!--more-->
+---
 
-#### What is it
+### What is it
 
-A better way to read books for those times when the real world is too distracting.
+**Reading Room** is a VR app that lets you take a physical book off of your book shelf, open it (with the headset
+on), and will match the ambiance around you to the content of what you are reading so you can get
+lost in the story or stay in flow state for work.
 
-Code can be found on [github](https://github.com/oudeismetis/reading-room)
 
-#### Current Capability
+### Current Capability
 
 You can load the experience into Google Cardboard on android and toggle the color of a cube if you look and click on it.
 (Baby steps!)
 ![Godot VR first steps](/img/2021/reading-room/godot_vr_cube.gif)
 
-#### Challenges
-(currently none)
+### Challenges
 
-#### Abandoned Ideas
-(currently none)
+- Calling C++ code libraries from Godot GDScript has proven to be more work than I thought (mostly
+  slow and tedious learning)
+- Meta and Google have both announced their intentions to open up API access to the passthrough
+  cameras in early 2025, but that has not happened yet
 
-#### Inspiration
+### Abandoned Ideas
+
+**eBook reader**
+
+I originally thought about making it a ebook reading. But that would require a LOT of extra code
+and effort. This is also an idea I've seen others have. I expect there will be real competition for that style of app.
+Eventually Kindle and other existing companies will offer their apps in VR. Instead of competing
+with them, I decided it's better to think of a bigger/grander idea.
+
+
+### Inspiration
+
+I've been workshopping this idea since 2020.
 
 Reading books with a small child around can make it difficult to get your imagination lost in a book. I would listen to classical
 music with earbuds which would help a lot, but thought about how to take things further.
@@ -42,7 +57,7 @@ But none of them had implemented my crazier ideas, probably because VR headsets 
 them a reality. I had been wanting to create a compelling VR experience for a while and this felt like the right idea at the 
 right timing.
 
-#### Research
+### Research
 * https://m.slashdot.org/story/359258
 * [Where to find books in the public domain](https://www.vice.com/en/article/kz4e3e/millions-of-books-are-secretly-in-the-public-domain-you-can-download-them-free)
 * https://www.hathitrust.org/#
