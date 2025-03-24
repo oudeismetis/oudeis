@@ -58,10 +58,9 @@ Think about what happens when you visit a website or download an app for the fir
 
 Do you expect your email to be sold to marketing firms? Do you think you’ll start getting spammed by the service? For the average user, if this thought pops into their head, they just don’t sign up and walk away. 
 
-<div class="center">
-  <img src="/img/2018/gdpr_xkcd.png"></br>
-  <a href="https://xkcd.com/2006/">source</a>
-</div>
+![xkcd](/img/2018/gdpr_xkcd.png)
+
+[xkcd](https://xkcd.com/2006/)
 
 For most users, it might be considered a “risk”, but they sign up anyway as the promising rewards of your app seem to outweigh that risk.
 And yet, this is exactly the business model of most applications these days. 

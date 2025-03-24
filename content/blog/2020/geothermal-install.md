@@ -47,43 +47,29 @@ efficiency in really cold (~14 degrees F) and really hot (~95 degrees F) tempera
 heat pumps use the outside air and exchange heat, either moving it into the house or moving it out.
 So when it's very cold, it has trouble extracting heat from that air. Same (but opposite) for hot.
 
-<div class="center">
-  <img src="/img/2020/geothermal/geo_tubing.jpeg"></br>
-  1-1/4" Tubing for our Geothermal wells
-</div>
+![1-1/4" Tubing for our Geothermal wells](/img/2020/geothermal/geo_tubing.jpeg)
 
 Traditional heat pumps are "air source". Meaning, they heat exchange with a large volume of air. 
 This is where that large compressor outside your house comes into play.
 
-<div class="center">
-  <img src="/img/2020/geothermal/well_drill.jpeg"></br>
-  Truck that drilled our wells
-</div>
+![Truck that drilled our wells](/img/2020/geothermal/well_drill.jpeg)
 
 Geothermal heat pumps are "ground source". Meaning, they heat exchange using the ground. When you 
 go down a couple of feet, the ground is ~55 degrees F all year round. It never changes. As a result, 
 the heat pump doesn't have to work as hard and can be VERY efficient. 
 
-<div class="center">
-  <img src="/img/2020/geothermal/two_wells_2.jpeg"></br>
-  Wells are put in, but not tied into the house yet
-</div>
+![Wells are put in, but not tied into the house yet](/img/2020/geothermal/two_wells_2.jpeg)
 
 Geothermal is so good, that in just about any climate it out performs all other heating/cooling 
 sources. There is some research that suggests it is also a better deal in the long run than adding 
 solar to your roof. [Some more reading](https://www.forbes.com/sites/tomkonrad/2014/02/28/how-geothermal-heat-pumps-can-soar-like-solar/#28dd71e81abd)
 
-<div class="center">
-  <img src="/img/2020/geothermal/trench_to_house.jpeg"></br>
-  Trenching to connect the wells to the house
-</div>
+![Trenching to connect the wells to the house](/img/2020/geothermal/trench_to_house.jpeg)
 
 Given that we needed to replace are aging oil furnace anyway, we decided this was the best 
 investment for us.
-<div class="center">
-  <img src="/img/2020/geothermal/connecting_wells.jpeg"></br>
-  Starting to connect the 1st well to the 2nd
-</div>
+
+![Starting to connect the 1st well to the 2nd](/img/2020/geothermal/connecting_wells.jpeg)
 
 ##### So whats the problem with Geothermal?
 It has a high up front cost and you need the space to install it.
@@ -91,19 +77,15 @@ It has a high up front cost and you need the space to install it.
 The way geothermal heat pumps do their heat exchange with the ground is by running piping 
 underground and moving a fluid through those pipes. This means either trenching (need a LOT of open 
 land) or by drilling one or more wells. 
-<div class="center">
-  <img src="/img/2020/geothermal/trench_between_wells.jpeg"></br>
-  Connecting the two wells to each other and back to the house
-</div>
+
+![Connecting the 1st well to the 2nd](/img/2020/geothermal/trench_between_wells.jpeg)
 
 For my property, the only option was well drilling. This is more expensive, but also performs 
 better. 
 
 There are numerous federal, state, and local tax credits and other support that make it cheaper. 
 After all of those credits, the cost for us has been ~$15K for a 4 ton system in Maryland. By contrast, a new gas furnace would have cost ~$9K. So definitely more expensive, but the credits have kept it in range for us. The pay off period should be somewhere between 2-7 years for us.
-<div class="center">
-  <img src="/img/2020/geothermal/geothermal.gif"></br>
-  Finishing up and hiding everything underground
-</div>
+
+![Finishing up and hiding everything underground](/img/2020/geothermal/geothermal.jpeg)
 
 We have now lived with the system for almost 2 years and are very happy. It is much quieter in the house not hearing a compressor kick on and off. The grass has grown back and you'd never know anything is there. I have compiled some numbers for the cost/benefit analysis, but I will save those for another post.

@@ -13,9 +13,7 @@ Initially I had thoughts about building a large heavy woodworking bench with a v
 
 Honestly though, I don't have the space for that at the moment and given my diverse interests I wanted something more versatile. I decided I wanted something big. . .but small enough and light enough that I could get it up the basement stairs in one piece should I need to move it out. I also wanted more storage for my growing set of tools and be able to wheel it around.
 
-<div class="center">
-  <img src="/img/2020/workbench_closed.jpeg"></br>
-</div>
+![Workbench Closed](/img/2020/workbench_closed.jpeg)
 
 The solution I settled on was a 24' X 48' X 36' project table made with standard 2X4 lumber and rolling on castors.
 
@@ -23,9 +21,7 @@ The solution I settled on was a 24' X 48' X 36' project table made with standard
 
 Having it on castors makes it easy to move out of the way on laundry day and allows it to butt up against the table saw as an outfeed table.
 
-<div class="center">
-  <img src="/img/2020/workbench_opened.jpeg"></br>
-</div>
+![Workbench Opened](/img/2020/workbench_opened.jpeg)
 
 A pair of gas struts and a piano hinge helped add some easy storage under the top. The extra shelf below is not only useful storage, but adds some good stability and weight for those times when I need the table to not move at all.
 
