@@ -1,7 +1,7 @@
 +++
 title = "VR Reading Room"
 slug = "vr-reading-room"
-date = "2025-03-05"
+date = "2025-03-28"
 tags = ['godot', 'vr']
 image = "img/2021/reading-room/godot_vr_cube.gif"
 showonlyimage = false
@@ -22,16 +22,16 @@ lost in the story or stay in flow state for work.
 
 ### Current Capability
 
-You can load the experience into Google Cardboard on android and toggle the color of a cube if you look and click on it.
-(Baby steps!)
-![Godot VR first steps](/img/2021/reading-room/godot_vr_cube.gif)
+VR works with Meta XR Simulator. Clicking the button runs OCR on a static image. When finished, the text displays in the game.
+
+![Reading Room VR OCR Working](/img/2025/reading-room/devlog_0.gif)
 
 ### Challenges
 
 - Calling C++ code libraries from Godot GDScript has proven to be more work than I thought (mostly
   slow and tedious learning)
 - Meta and Google have both announced their intentions to open up API access to the passthrough
-  cameras in early 2025, but that has not happened yet
+  cameras in early 2025 (Meta finally opened up access in March 2025)
 
 ### Abandoned Ideas
 
