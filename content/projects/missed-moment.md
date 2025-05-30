@@ -1,10 +1,10 @@
 +++
 title = "missed-moment"
 slug = "missed-moment"
-date = "2016-09-15"
+date = "2021-07-31"
 tags = ['python', 'Raspberry Pi', 'IoT']
 image = "img/projects/missed-moment-v1.jpeg"
-active = true
+active = false
 weight = 1
 +++
 

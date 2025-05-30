@@ -4,7 +4,7 @@ slug = "house"
 date = "2018-07-08"
 tags = ['geothermal', 'IoT', '3d']
 image = "img/2020/under_construction.jpeg"
-active = true
+active = false
 weight = 2
 +++
 

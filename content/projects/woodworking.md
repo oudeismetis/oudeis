@@ -5,7 +5,7 @@ date = "2020-07-04"
 tags = ['foo', 'bar', 'biz']
 image = "img/2020/workbench_opened_large.jpeg"
 showonlyimage = false
-active = true
+active = false
 weight = 1
 +++
 

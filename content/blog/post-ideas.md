@@ -117,3 +117,6 @@ https://tinypng.com/
 Video to gif
 https://ezgif.com/video-to-gif
 </br>
+STRONGLY attempt to create webp instead (quality seems terrible??)
+https://ezgif.com/video-to-webp
+</br>
