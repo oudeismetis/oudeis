@@ -43,7 +43,7 @@ Showing them a perfect picture of what they might get can be a huge let down lat
 
 The opposite is also true. Show them nothing and they will fill in the blanks with their own imagination.
 
-![Antici. . .pation](/img/2025/hibachi/anticipation.gif)
+![Antici. . .pation](/img/anticipation.gif)
 
 ```
 I worked at a haunted house in my teens, building optical illusions before 

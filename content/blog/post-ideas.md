@@ -10,12 +10,13 @@ Next up: ??? :fire: [more](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 If you can see this, it means you can read my project updates before they are released on the website...good for you :)
 
-### Publish Schedule
-1. 2023 Q4 - reading-room or SkipAlpha
-1. 2024 Q1 - ??
+### Next Posts
+1. [Vibe Coding Future]({{< ref "vibe-codings-future.md" >}})
+1. [Passthrough Camera Reading Room]({{< ref "reading-room-passthrough-camera.md" >}})
+1. Update project: [VR Reading Room]({{< ref "vr-reading-room.md" >}})
+1. OpenCV for Reading Room
 
-
-### Content buffer
+### Old Content buffer
 1. [Python JSON logging with error suggestions]({{< ref "python-exception-suggested-fix.md" >}}) (50%)
 1. [Error catching shell scripts]({{< ref "shell-script-exception-handling.md" >}}) (50% - xonsh)
 1. [DRY harmful]({{< ref "dry-considered-harmful.md" >}}) (50%)
