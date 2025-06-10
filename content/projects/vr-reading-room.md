@@ -1,7 +1,7 @@
 +++
 title = "VR Reading Room"
 slug = "vr-reading-room"
-date = "2025-03-28"
+date = "2025-05-30"
 tags = ['godot', 'vr']
 image = "img/2025/reading-room/sky_change.gif"
 showonlyimage = false
