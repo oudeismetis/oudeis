@@ -48,16 +48,23 @@
     font-weight: 700;
     font-size: 13px;
 }
+
 .project-active {
     border-radius: 50px;
     background: #4BC94D;
-    padding: .2em;
+    padding: .4em;
 }
 
 .project-inactive {
     border-radius: 50px;
     background: #FF8A3C;
-    padding: .2em;
+    padding: .4em;
+}
+
+.project-client {
+    border-radius: 50px;
+    background: #D5AB09;
+    padding: .4em;
 }
 
 .top-content {
@@ -78,6 +85,10 @@
 .center {
     width: 50%;
     margin: 0 auto;
+}
+
+.margin-0 {
+    margin: 0;
 }
 
 code {

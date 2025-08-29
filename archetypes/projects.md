@@ -6,6 +6,7 @@ tags = ['foo', 'bar', 'biz']
 image = "img/projects/aprs_tracker.jpeg"
 showonlyimage = false
 active = true
+client = false
 weight = 1
 draft = true
 +++
