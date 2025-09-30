@@ -33,6 +33,36 @@ I have the core loop of the app running on a Meta Quest 3.
 
 ![Reading Room VR OCR Working](/img/2025/reading-room/devlog_0.gif)
 
+### Screenshots
+
+{{< figure
+  src="/img/2025/reading-room/reading_room_tech_demo_1.png"
+  alt="Go find a book and sit somewhere comfortable"
+  width="100%"
+  class="margin-0"
+>}}
+
+{{< figure
+  src="/img/2025/reading-room/reading_room_tech_demo_2.png"
+  alt="Processing"
+  width="100%"
+  class="margin-0"
+>}}
+
+{{< figure
+  src="/img/2025/reading-room/reading_room_tech_demo_3.png"
+  alt="Daytime environment"
+  width="100%"
+  class="margin-0"
+>}}
+
+{{< figure
+  src="/img/2025/reading-room/reading_room_tech_demo_4.png"
+  alt="Nighttime environment"
+  width="100%"
+  class="margin-0"
+>}}
+
 ### Challenges
 
 * Calling C++ code libraries from Godot GDScript has proven to be more work than I thought (mostly
