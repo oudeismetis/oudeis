@@ -8,28 +8,34 @@ active = false
 weight = 1
 +++
 
-New progress made in 2020!
+Paused as of 2021. May return in the future
 
 <!--more-->
-
-#### What's New
-
-- Code has been updated to run on the RPi4 as well as the new Raspberry Pi OS
-- Install instructions and scripts have been streamlined
-- HUGE progress has been made on audio support (Special thanks to [cherryshoe](https://github.com/cherryshoe))
 
 #### What is it
 A "privacy by design" IoT camera designed to capture all the precious moments in life. For when you 
 wish you had just caught something on camera.  
 Detailed setup instructions can be found on [github](https://github.com/oudeismetis/missed-moment)
 
-The main functionality works. I've had a raspberry Pi running it almost constantly for 2 years now with rarely any issues.
+The main functionality works. I've had a raspberry Pi running it almost constantly for 2 years with rarely any issues. But it has been a few years since I've run it so there may be issues on newer Raspberry Pis.
+
+{{< figure
+  src="/img/2025/missed_moment.gif"
+  alt="Sample missed-moment montage"
+  width="100%"
+  class="margin-0"
+>}}
 
 #### Current Capability
 - Immediately starts recording when powered on
 - Upon button press, the last ~1 min of video is written to temporary storage
 - Plug a USB device in. Any saved videos will automatically be written and the USB device ejected.
 - As nothing is written until button press, video kept in memory is lost after a few minutes
+
+#### Recent Changes
+- Code has been updated to run on the RPi4 as well as the new Raspberry Pi OS
+- Install instructions and scripts have been streamlined
+- EXPERIMENTAL audio support (Special thanks to [cherryshoe](https://github.com/cherryshoe))
 
 #### Challenges
 Audio support has been the biggest rabbit hole. There are ways to create a circular buffer of 
