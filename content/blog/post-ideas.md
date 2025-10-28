@@ -12,7 +12,6 @@ If you can see this, it means you can read my project updates before they are re
 
 ### Next Posts
 1. [Vibe Coding Future]({{< ref "vibe-codings-future.md" >}})
-1. [Passthrough Camera Reading Room]({{< ref "reading-room-passthrough-camera.md" >}})
 1. Update project: [VR Reading Room]({{< ref "vr-reading-room.md" >}})
 1. OpenCV for Reading Room
 

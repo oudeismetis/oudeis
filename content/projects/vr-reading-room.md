@@ -1,7 +1,7 @@
 +++
-title = "VR Reading Room"
+title = "Reading Room VR"
 slug = "vr-reading-room"
-date = "2025-05-30"
+date = "2025-10-25"
 tags = ['godot', 'vr']
 image = "img/2025/reading-room/sky_change.gif"
 showonlyimage = false
@@ -15,23 +15,20 @@ A better way to read to maintain flow state or stay lost in the story
 
 ### What is it
 
-**Reading Room** is a VR app that adds to the ambiance of reading physical books in the real world.
+**Reading Room** is a VR app that adds to the ambiance of reading physical books in the real world by matching the environment and soundscape around you to the content you are reading.
 
-It lets you take a physical book off of your book shelf, open it (with the headset
-on), and then matches the scene around you to the content of what you are reading so you can get
-lost in the story or stay in flow state for work.
+Stay lost in the story or get into flow state for work.
 
 
-### Current Capability
+### Follow the Development
 
-I have the core loop of the app running on a Meta Quest 3.
+Blog and Project updates on this website.
 
-* Using the cameras on the headset, it takes a picture and runs OCR on.
-* It then displays that text on a book you can hold in VR.
-* It will switch the sky between day and night to match words it finds on the page.
-* This will then be repeated as it takes another image from the page.
+YouTube devlogs, demo clips, and more:
+[YouTube](https://www.youtube.com/@oudeis_)
 
-![Reading Room VR OCR Working](/img/2025/reading-room/devlog_0.gif)
+{{< youtube id="mw5hNcJddfY" >}}
+
 
 ### Screenshots
 
@@ -109,6 +106,9 @@ reading excited me. I did a bit of googling and quickly found others who built s
 But none of them had implemented my crazier ideas, probably because VR headsets were just now adding the tools needed to make 
 them a reality. I had been wanting to create a compelling VR experience for a while and this felt like the right idea with the 
 right timing.
+
+I then saw products like the HTC Vive Pro Eye (Announced in 2019). My imiagination immediately jumped to reading a sentence in a book
+where lightning is striking and as your eye reaches that part of the page...a flash of light and a rumble in the distance. 
 
 ### Inspiring Research (2020/2021)
 * https://m.slashdot.org/story/359258
