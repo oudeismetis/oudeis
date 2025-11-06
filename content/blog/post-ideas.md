@@ -22,7 +22,6 @@ If you can see this, it means you can read my project updates before they are re
 1. [Startup Lessons Learned]({{< ref "start-up-lessons-learned.md" >}}) (50%)
 1. [Agile Rocket Ship]({{< ref "agile-rocket-ship.md" >}}) (0%)
 
-
 ### Website TODO
 * Replace Google Analytics
 
@@ -106,17 +105,22 @@ Seems like you aren't supposed to run HASS like this
 <br />
 <br />
 http://blog.neugan.com/2012/06/host-javascript-js-css-files-on-google.html
-<br />
-<br />
+
+### YouTube Downloading
+Using `yt-dlp` installed here via pip.
+
+### Minimize Assets and Compress Images
+`https://tinypng.com/` and just drop in the images (up to 2MB)
+
+There is also a `new_post.py` script here where I started setting up API calls to that service.
+Not sure if I have had that fully working and tested.
+
+### Animated GIFs
 Really good gif editor
 https://www11.lunapic.com/editor/
-</br>
-Compressing images
-https://tinypng.com/
-</br>
+
 Video to gif
 https://ezgif.com/video-to-gif
-</br>
+
 STRONGLY attempt to create webp instead (quality seems terrible??)
 https://ezgif.com/video-to-webp
-</br>

@@ -47,6 +47,13 @@
         <div class="entry-container">
           <div class="top-content">
             <article>
+                {{ if .Params.client }}
+                <div class="project-status">
+                    <span class="project-client">
+                    Client Project
+                    </span>
+                </div>
+                {{ else }}
                 <h4>Status</h4>
                 <div class="project-status">
                     {{ if .Params.active }}
@@ -59,6 +66,7 @@
                     </span>
                     {{ end }}
                 </div>
+                {{ end }}
             {{ range first 3 (where .Site.Pages "Params.projectslug" .Slug) }}
             {{ .Date.Format "Jan 02 2006" }} - {{ .Title }}
             <div class="more-link-wrapper"><a class="more-link" href="{{ .Permalink }}">Read the update<span class="screen-reader-text">This is a Standard Post</span></a></div>
@@ -73,6 +81,11 @@
             <article>
               {{ .Content }}
             </article>
+            {{ if .Params.client }}
+            <div>
+                CTA Banner
+            </div>
+            {{ end }}
           </div>
           <!--  <div class="sidebar sidebar-after-post-content" id="sidebar-after-post-content">
           <section id="text-2" class="widget widget_text"><h2 class="widget-title">After Post Content Widget</h2>			<div class="textwidget"><p>This is a widget in the "After Post Content" widget area. It's a great place to include related posts or an email optin form.</p>
